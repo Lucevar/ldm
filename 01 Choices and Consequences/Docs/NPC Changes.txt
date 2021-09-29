@@ -1,0 +1,93 @@
+[ Ajira ] Rank changed from associate to apprentice
+[ almse arenim ] Lawman -> House Cousin
+[ arethan mandas ] added to Redoran - House Father
+[ arver rethul ] TG at Dren Plantation -> changed to Camonna Tong - Hammer
+[ athyn sarethi ] face model changed from b_n_dark_elf_m_head_05 to b_n_dark_elf_m_head_09
+[ avon oran ] Kinsman -> House Cousin
+[ baren alen ] Oathman -> Kinsman
+[ barenziah ] added to Hlaalu -> house father
+[ bevadar bels ] added to Redoran - Lawman
+[ bolrin ] EEC - underling -> agent in line with FMI - Service Refusal & Contraband
+[ Botrir ] Script changed to GAMA_botrirScript
+[ canctunian ponius ] added to East Empire Company -> Factor
+[ crito olcinius ] robe changed from a temple robe to a generic robe
+[ dalami hlaalu ] added to Hlaalu - retainer
+[ danaronea daryon ] added to Redoran - retainer
+[ delyna mandas ] added to Redoran - Kinsman
+[ Din ] No longer respawns.
+[ dramis maryon ] added to Redoran - Lawman
+[ Dreamer_Talker02 ] script changed to luce_ldm_G93_StrangeMan
+[ Drerel Indaren ] Script changed to GAMA_drerel_indaren
+[ durus marius ] added to Dark Brotherhood - Dark Brother
+[ Edras Oril ] Script changed to GAMA_edras_oril
+[ elvas savel ] added to Redoran - Oathman
+[ falam hlaalu ] added to Hlaalu - Retainer
+[ Falanu Indaren ] Script changed to GAMA_falanu_indaren
+[ faver seran ] added to Redoran - oathman
+[ Galbedir ] Rank changed from journeyman to apprentice
+[ galyn arvel ] added to Twin Lamps - Abolitionist
+[ gandela indoran ] added to Redoran - Retainer
+[ giras indaram ] added to Temple - Acolyte
+[ guldrise dralor ] TG at Dren Plantation -> Camonna Tong Chiller
+[ hakar the candle ] added to Redoran - Oathman
+[ Hisin Deep-Raed ] Script changed to GAMA_hisin_deep_raed
+[ Hul ] AiWander radius changed from 2000 to 1000.
+[ idros givyn ] added to Redoran - Lawman
+[ ilmyna romoren ] added to Redoran - Oathman
+[ imperial archer ] added to Imperial Legion - Trooper
+[ inganar ] added to Dark Brotherhood - Journeyman
+[ irer nervion ] added to Temple - Acolyte
+[ irver fevur ] added to Redoran - Retainer
+[ ivela uvenim ] added to Redoran - Lawman
+[ ivrosa verethi ] TG at Dren Plantation -> Camonna Tong Chiller
+[ j'zhirr ] added to EEC - Agent
+[ jobasha ] added to Twin Lamps
+[ king hlaalu helseth ] added to Hlaalu - house father
+[ llarel llenim ] added to Redoran - Lawman
+[ Louis Beauchamp ] Script changed to luce_ldm_moveLouis
+[ Lugrub gro-Ogdum ] Script changes; increased wander radius
+[ malsa ules ] added to Redoran - Lawman
+[ mandur omalen ] added to Redoran - Retainer
+[ Marcel Maurard ] Script changed to GAMA_moveMarcel. AI Wander set to 0, moved to just outside Miun-Gei's shop.
+[ Maurrie Aurmine ] Script changed to GAMA_moveMaurrie
+[ melvuli hlaalu ] added to Hlaalu - Retainer
+[ mendel eves ] added to Temple - Acolyte. Changed from Nord to Dunmer.
+[ movis darys ] added to Dark Brotherhood - Apprentice
+[ Nalvyna Sarinith ] added to Redoran - Kinsman
+[ nathyne uvelas ] added to Redoran - Lawman
+[ Nevrasa Dralor ] Script changed to GAMA_nevrasa_dralor
+[ nidara herandus ] added to Dark Brotherhood - Assassin
+[ nidryne redas ] added to Redoran - Lawman
+[ nileno dorvayn ] Kinsman -> House Cousin
+[ novor gorvas ] added to Redoran - Lawman
+[ okan_shei ] added to East Empire Company - Clerk
+[ ondres nerano ] Hireling -> Kinsman
+[ Paur Maston ] Script changed to GAMA_paur_maston
+[ processus vitellius ] added to Census and Excise Office - Taxman
+[ ralam vilas ] added to Redoran - Retainer
+[ ralen hlaalo ] Hireling -> Kinsman
+[ Raryn Daren ] added to Redoran - Kinsman
+[ raviso andalas ] added to Redoran - Retainer
+[ severa magia ] added to Dark Brotherhood - Master Assassin
+[ shardie ] head model changed from b_n_redguard_f_head_01 to b_n_redguard_f_head_05
+[ shazgob gra-luzgan ] added to East Empire Company - Underling
+[ Sosia Caristiana ] Added to the Mages Guild (rank: journeyman), given 300 barter gold, now sells potions, ingredients
+[ sovisa adas ] added to Dark Brotherhood - Operator
+[ sterdecan ] added to Twin Lamps
+[ suvryn doves ] TG in Dren Plantation -> Camonna Tong Chiller
+[ tereri irethi ] added to Redoran - Lawman
+[ Teris Raledran ] Script changed to GAMA_teris
+[ teryne hlaalu ] added to Hlaalu - Retainer
+[ Thoronor ] Script changed to GAMA_thoronor
+[ thovasi alen ] added to Dark Brotherhood - Operator
+[ tidras deltis ] added to Redoran - Lawman
+[ tidros indaram ] added to Temple - Adept
+[ tsrazami ] added to Dark Brotherhood - apprentice
+[ ulms drathen ] added to Temple - Acolyte
+[ ulyne henim ] added to Temple - Initiate
+[ uradras sadalas ] added to Dark Brotherhood - Apprentice
+[ velsa orethi ] added to Redoran - Kinsman
+[ vendrela aravel ] added to Redoran - Kinsman. Changed class Commoner -> Noble.
+[ veresa salvani ] added to Redoran - Kinsman. Changed class Commoner -> Noble.
+[ vevul alver ] added to Redoran - Lawman.
+[ zallit assattadaishah ] CM - added to faction Ashlanders 

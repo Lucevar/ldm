@@ -1,0 +1,126 @@
+LDM - Choices and Consequences
+v0.47 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Installation
+======================================================
+Requirements:
+- Either MCP with Allow Faction Leaving patch enabled, or OpenMW 0.46+
+- Patch for Purists v4+
+
+Load Order:
+- Patch for Purists.esm
+- Patch for Purists esps
+- Django's Dialogue.esp
+- Improved Inns Expanded.esp
+- LDM - Context Matters.esp
+- LDM - Choices & Consequences.esp
+- Hlaalu Rank Adjust, Roleplay Options for GHH, etc.
+- Quest mods in general, especially faction expansion mods. If there's a conflict, you'll generally want them to overwrite C&C because they might have follow-on content.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Alice
+LDM - Balmora Rumour Fix by Lucevar
+FMI - HulStop by PoodleSandwich
+FMI - Legion Dialogue by PoodleSandwich
+FMI - Note from the Archcanon Fix by PoodleSandwich
+FMI - Current Councilors by PoodleSandwich
+Quest Choices by Remiros (previously unreleased)
+Hentus Needs Pants Overhaul by Alice
+Ajira Deflowered by Alice
+Oath to St. Roris Instead by Alice
+NPC Faction Affiliator Corrector by Alice
+FMI - Athyn and Shardie by PoodleSandwich
+FMI - Gavrilo's Package by Alice
+Pacifist Options - When It Makes Sense by Alice
+Sexual Harassment Remover by JaceyS 
+-- 3 - Telvanni Bride, 5 - Curio - Hortator - Reducer, 9 - Curio - House Hlaalu - Expander, 11 - Nels Llendo - Expander
+Strange Man At Gindrala's House Overhaul by Alice 
+The G93 Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition by Alice
+Libertarian Magical Services by Alice
+Duel of Honor - Improve the Chances by Alice  
+Blight at the Hairat-Vassamsi Mine by Alice
+Redoran Freeloaders by Alice
+Fargoth in Distress by Alice (inspired by rather than included)
+
+Partially Included Mods
+========================================================
+Hlaalu Rank Adjust by Ithilien87 - LDM includes only the NPC rank and "background" topic changes from Hlaalu Rank Adjust. Compatible if you load Hlaalu Rank Adjust after LDM - C&C for the full Hlaalu Rank Adjust changes.
+Sexual Harassment Remover by JaceyS 
+- I only included the quest changes/additions. SHR is incredibly modular, so you can pick and choose from any of the other SHR modules and load them alongside C&C, just don't use any of the modules that affect the Telvanni Bride quest, Crassius Curio, or Nels Llendo.
+
+Compatibility
+=======================================================
+-- Django's Dialogue should load BEFORE LDM - Context Matters
+-- Improved Inns Expanded should load BEFORE LDM - Choices and Consequences
+-- Hlaalu Rank Adjust should load AFTER LDM - Choices and Consequences
+
+Mods that Conflict
+=======================================================
+- Anything on the "included mods" list
+- Andrano Ancestral Tomb Remastered - GAMA. Situational conflict where Nelos Onmar may become temporarily unavailable, thus leading to a dead end in the AATR quest.
+
+Recommended Mods
+========================================================
+- MWSE Pickpocket and Stealth Improved by Mort - Makes pickpocketing and stealth actually functional, thus providing pacifist options in a LOT of different scenarios. 
+- Roleplay Options for Great House Hlaalu by Caeris & Luj1
+- Courtesy by Chantox
+- Nationalist Nerevarine by Alice
+- Religions Elaborated by Caeris - use the No Quest Changes version
+
+High Level Feature Changes in 0.47
+=======================================================
+-- bug fix for Lugrub gro-Ogdum topic
+-- [MS_LookOut: Fargoth's Hiding Place] New quest option: tell Fargoth that Hrisskar is hiring people to find his hiding spot. Learn the truth behind rumors of Hrisskar's financial troubles.
+-- Some new dialogue lines for Seyda Neen NPCs about [Fargoth's Hiding Place] and [murder of Processus Vitellius]
+-- [MV_DeadTaxman: Death of a Taxman] Fixed bug where a guard would appear to help you kill Foryn Gilnith, even if you didn't confide your suspicions with Socucius before confronting Foryn. Now you should be able to rob Foryn in peace once you kill him. 
+-- New Optional Worldspace Edits plugin: a lot of dialogue lines in Seyda Neen talk about the guards playing Nineholes (instead of doing their jobs by killing the local bandits). Now there is a nineholes board upstairs at Arrilles, plus a little bit of extra clutter. Requires OAAB/Tamriel Data.
+
+=================== Bug Fixes ===========================
+-- fixed dialogue ordering issue in topic "Lugrub gro-Ogdum" that prevents the player from receiving their reward.
+
+================= Seyda Neen: Fargoth's Hiding Place ======================
+[someone in particular]
+-- [Fargoth] arrille is my friend, hrisskar should be avoided
+-- [Fargoth] negative reaction line from Fargoth if you sided with Hrisskar
+-- [Fargoth] change line if Hrisskar is dead
+
+[Fargoth's Hiding Place]
+-- [Arrille] disposition drop if you mention fargoth's hiding place before warning Fargoth
+
+-- Regardless of whether you accepted or rejected the quest from Hrisskar, you can now warn Fargoth that Hrisskar knows he has a hiding place.
+-- alternatively, ask him where his hiding place is. Get a disposition drop.
+-- If you warn him, he'll say he'll move his stuff and that now is a good time because Hrisskar is due to go up the coast to Hla Oad with the Coast Guard.
+-- disable Hrisskar. Enable Hrisskar's corpse outside Hla Oad. The Camonna Tong got him for not paying his debts.
+-- Tell Fargoth Hrisskar is dead. Get celebration drinks.
+
+[latest rumors]
+[Arrille]: latest rumor about Hrisskar changes to say that he's gone out of town.
+
+[[ MS_Lookout ]] [[ Fargoth's Hiding Place ]]
+[NEW] 50: I told Fargoth that Hrisskar is trying to find his hiding place. He gave me some hackle-lo leaf as a thank you for the warning. He said he'll have some time to find a new hiding place, since Hrisskar is being sent to Hla Oad with the Coast Guard soon.
+[NEW] 70: I found Hrisskar's corpse in the swamp outside Hla Oad. Looks like he's been robbed.
+[NEW] 75: No-one will say anything outright, but the locals in Hla Oad are dropping hints that Hrisskar owed money to the wrong people. It seems likely that the Camonna Tong murdered him for not paying his gambling debts.
+[NEW] 80: I told Fargoth about Hrisskar's death. He was delighted and bought me a drink to celebrate.
+
+[Hla Oad]
+- Added Hrisskar's corpse nearby (appears in tell-Fargoth branch).
+
+================= Seyda Neen: Death of a Taxman ======================
+-- 0.46 bug: Guard appears even if you don't talk to Socucius first. Fixed by changing choice #.
+
+[Murder of Processus Vitellius]
+-- [Census and Office Workers] unique line: this is a matter for Socucius  
+-- [Fargoth] I guess you should talk to the Census office. The guards won't do anything, that's for sure. Lazy pack of fetchers would rather play nineholes.
+
+=============== Optional Worldspace Edit: Nine-Holes at Arrille's ===============
+Requirements:
+OAAB_Data
+Tamriel_Data 
+
+-- Added nine-holes board and various other gambling paraphernalia to Arrille's
+-- A little bit of additional misc OAAB/TD clutter

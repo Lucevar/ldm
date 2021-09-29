@@ -1,0 +1,10 @@
+1.4
+-- Updated the filter for specific place in Ebonheart so that people will no longer tell you you're standing in the Six Fishes when you're not.
+-- Two disease topics, [[ ash-chancre ]] and [[ swamp fever ]], get more ashlander-appropriate responses.
+-- changed some Gnisis greetings around to prevent people who like you from acting as though they hate your guts
+-- added no-lore filters to vampire topics
+-- Filters two Pelagiad greetings that use %name for Not Class = Archer, to prevent Imperial Archers from saying them. It sounds a little weird to have "Hello. I'm Imperial Archer. How can I help?" Changing them in this way also means that it should be compatible with guard diversity mods, as long as they preserve the class=archer.
+-- several little advice entries for Ald-ruhn tweaked, a new line added for members of the Mages Guild. Slight refiltering of the Aldruhn Mages Guild mages guild little advice - they should show up more often now.
+-- A Telvanni/Sadrith Mora little advice had its phrasing tweaked slightly.
+-- my trade, nightblade/battlemage service: should not say they offer spellmaking services, because they don't. fixed.
+-- merged in LDM - Ashlanders

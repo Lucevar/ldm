@@ -1,0 +1,147 @@
+LDM - Context Matters
+
+Partially MERGED IN - PoodleSandwich's FMI - Misc
+[Vvardenfell/geography of vvardenfell]
+-- Includes a tweaked version of the FMI change that doesn't remove the "arid grasslands" that FMI removes. I think the west gash probably qualifies as arid grasslands. 
+
+[The Dark Elven Curse]
+-- Savants: Adopted FMI's change of northeastern wastelands -> ash wastes
+-- Artisa Arelas: no longer speaks as though she herself is not a Dunmer. She now talks of "our own accounts"
+
+[Grazelands]
+-- Ashlander scouts now talk about "our herds" rather than "the Ashlander herds", etc.
+-- There are no paved roads in the Grazelands, but there are tracks. Removed phrase that says there are no tracks.
+-- Removed references to Tel Fyr being in the Grazelands, because its not.
+
+[Seyda Neen]
+-- People who aren't in Seyda Neen will no longer say they are, when asked about Seyda Neen.
+
+[herd animals]
+-- removed references to guars and shalks being aggressive or unaggressive
+
+MERGED IN - PoodleSandwich's FMI - Ingredient Locations
+see https://docs.google.com/document/d/17sx4qC5iUUPTTIXrfRwttw7JZTsle-L6M1__pBtGSuo/edit for a full breakdown of the changes Ingredient Locations makes
+
+Tendris Vedran and Anarenen are alchemists who will describe where to find different types of plants. In vanilla, some of these descriptions are incomplete, inaccurate, or otherwise misleading. LDM includes FMI's changes and sometimes makes additional tweaks in phrasing so that Tendris and Anarenen give different lines. 
+
+Like FMI, LDM - CM leaves some lines unchanged where Patch for Purists already includes a fix.
+
+[black anther]
+-- Vanilla states that it grows along Azura's Coast. Included FMI's change that states that it grows in the Ascadian Isles and less commonly along Azura's Coast. 
+
+[bonemeal]
+-- Includes FMI's changes for Tendris Vedran: 
+[vanilla] made from the bones of the bonewalker ->  
+[FMI] made from the bones of the bonewalker, skeleton, bonelord and other animated bone-constructs of both profane and sacred origins.
+-- Leaves Sharn's description untouched. Anarenen's dialogue is fixed by Patch for Purists.
+
+[kresh fiber]
+-- keeps FMI's distinction between the ingredient (kresh fiber) and the plant (kreshweed)
+-- removed FMI's change for Tendris Vedran that says kreshweed grows in "great abundance" near salt water, and instead says "grows well near salt water"
+-- LDM - CM addition: adds that it also grows in Sheogorad region
+
+[stoneflower petals] 
+-- Tendris Vedran: keeps FMI's description
+-- Anarenen: says they're most common in the west gash, but that they can be found almost anywhere on Vvardenfell outside of the inland ash wastes.
+
+
+PARTIALLY MERGED IN - PoodleSandwich's FMI - Disease Descriptions
+I have merged in the dialogue changes which are relevant to the vanilla game, but not any of the additional changes to creatures and disease distribution (and hence, not the dialogue changes that support those changes). If you want a wider disease distribution than is available in vanilla, you should use one of the following mods and load it AFTER LDM - Context Matters.
+
+FMI - Disease Descriptions https://www.nexusmods.com/morrowind/mods/47331
+Diseases Restored https://www.nexusmods.com/morrowind/mods/45228
+Synthesis Series - Creatures and Diseases https://www.nexusmods.com/morrowind/mods/48279
+
+LDM - CM specific changes include changing the phrasing and precise information available depending on which of the four people is speaking:
+
+Ygfa, Nord healer for the Imperial Cult at Fort Pelagiad. Will mention creatures added by bloodmoon.
+Tendris Vedran, Temple apothecary in Sadrith Mora. Will mention creatures added by Tribunal.
+Maela Kaushad, a former wise woman who has given up the nomadic lifestyle of the Ashlanders and moved to Vos. Will only talk about creatures found on Vvardenfell.
+Artisa Arelas, a Dunmer pilgrim. Will only talk about creatures found on Vvardenfell, and draws on her travel experience rather than professional healing knowledge.
+
+In general, Ygfa and Tendris will give more clinical, objective descriptions, while Maela and Artisa draw more on personal experience.
+
+[ataxia]
+-- contracted from alits and plague bears, not slaughterfish.
+-- only ygfa will mention plague bears
+-- Maela mentions that ashlander hunters often catch it
+-- Artisa gives the perspective of a traveler
+
+[brown rot]
+-- you only get brown rot from bonewalkers, not skeletons or bonelords
+-- the three dunmer will express disapproval of people who get brown rot, since the most common way of getting it is by disturbing a bonewalker in a tomb.
+
+[chills]
+-- removes references to creatures, as there is no source of chills in vanilla
+-- the one case of chills in vanilla is a pilgrim, so I added dialogue suggesting it occurs among pilgrims and other travelers
+-- added new entries for artisa and maela
+
+[collywobbles]
+-- adds more personal descriptions to maela and artisa about the effects of collywobbles, including that people can sometimes waste away if they're not treated because they don't have enough energy to eat or drink.
+
+[dampworm]
+-- removes references to nix hounds, as dampworm isn't carried by nix hounds in vanilla.
+-- added new entries for artisa and maela
+
+[droops]
+-- like FMI, changes 'all' to 'most' forms of kwama
+-- Ygfa mentions that its only really found in Morrowind, because its carried by kwama
+-- Tendris mentions its common among miners
+-- Maela talks about how its common in Vos because of their two mines
+-- Artisa says its rare among travelers but sometimes carried by roaming kwama
+
+[greenspore]
+-- removes reference to slaughterfish, as its not carried by them in vanilla
+-- except for Ygfa, who says its common throughout the Empire wherever slaughterfish are found but rarer in Morrowind than Cyrodiil (referencing that slaughterfish in oblivion carry greenspore)
+-- added new entries for artisa and maela
+
+[helljoint]
+-- added lines for artisa and maela, left tendris and ygfa vanilla.
+
+[rattles]
+-- fixed typo in vanilla entry
+-- added new entries for artisa and maela
+
+[rockjoint]
+-- removed references to it being carried by guar and alits
+-- added new entries for artisa and maela
+
+[rust chancre]
+-- Changed vanilla description from "affecting a victim's mobility and behaviour" to "affecting a victim's mobility and appearance" since it causes a rash, not any behavioural changes.
+-- added new entries for artisa and maela
+
+[serpiginous dementia]
+-- removes references to bull and betty netches, since they don't carry it in vanilla
+-- added new entries for artisa and maela
+
+[swamp fever]
+-- added new entries for artisa and maela
+
+[witbane]
+-- added new entries for artisa and maela
+
+[wither]
+-- removes references to dreugh
+
+[yellow tick]
+-- added new entries for artisa and maela
+-- ygfa will mention plague wolves as well as kagouti
+
+Blight diseases (not covered by FMI):
+[Ash Woe]
+-- Slightly tweaked Maela and Artisa's lines.
+
+[Ash-Chancre]
+-- Slightly tweaked Maela, Wise Woman Service, and Artisa's lines.
+
+[Black-Heart]
+-- Slightly tweaked Maela and Artisa's lines.
+
+[Chanthrax]
+-- Slightly tweaked Maela and Artisa's lines.
+
+[Corprus]
+-- Maela already had a unique line. Slightly tweaked it, and gave it to Artisa as well.
+
+[Corprus disease]
+-- Slightly tweaked Maela and Artisa's lines.
