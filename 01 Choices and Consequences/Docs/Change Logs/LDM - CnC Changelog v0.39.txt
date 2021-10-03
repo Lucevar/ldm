@@ -1,0 +1,132 @@
+LDM - Choices and Consequences
+v0.39 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Gavrilo93
+LDM - Balmora Rumour Fix by Lucevar
+FMI - HulStop by PoodleSandwich
+FMI - Legion Dialogue by PoodleSandwich
+FMI - Note from the Archcanon Fix by PoodleSandwich
+FMI - Current Councilors by PoodleSandwich
+Quest Choices by Remiros (previously unreleased)
+Hentus Needs Pants Overhaul by Gavrilo93
+Ajira Deflowered by Gavrilo93
+Oath to St. Roris Instead by Gavrilo93
+NPC Faction Affiliator Corrector by Gavrilo93
+FMI - Athyn and Shardie by PoodleSandwich
+FMI - Gavrilo's Package by Gavrilo93
+
+Partially Included Mods
+========================================================
+Hlaalu Rank Adjust by Ithilien87 - LDM includes only the NPC rank and "background" topic changes from Hlaalu Rank Adjust. Compatible if you load Hlaalu Rank Adjust after LDM - C&C for the full Hlaalu Rank Adjust changes.
+
+High Level Feature Changes in 0.39
+=======================================================
+- Crito Olcinius robe switch now accomplished by script for greater compatibility
+- Larrius Varro will now only talk about his "nice present" being from the Emperor if the player is part of the Blades. This allows non-Blade, non-Nerevarine characters to play the quest without having their immersion broken (why would the Emperor take an interest in a random citizen?). It's still implied that the ring is from "someone" but *who* is left ambiguous.
+- Ithilien87's Hlaalu Rank Adjust partially included: Hlaalu ranks are smoothed out, some NPCs have been given 'job titles' and will talk about them if asked about 'background'.
+- Prominent permacorpses will now be removed: Processus Vitellius, Nads Tharen, and Ralen Hlaalo will be buried when you turn in their respective quests, and the corpses of the attackers and defenders in the Sarethi Manor attack will also be cleared. 
+- Gavrilo's Package: Imperial Cult: Scroll of Fiercely Roasting is now a unique artifact. Hlendrisa Seleth's 10 scrolls are replaced with 10 Hellfire scrolls.
+- Gavrilo's Package: Temple: Slay Raxle Berne. Tharer Rotheloth now gives the player a Saints Shield instead of a Belt of Balyna's Soothing Balm. Balyna is an Imperial Cult saint. Saints Shield because it's a) in the Temple enchanted item lvl lists and b) given to you by Tharer if you kill Raxle Berne before receiving the quest.
+- Gavrilo's Package: gra-Muzgob Informant. Adds an orc-specific line where Caius holds his tongue and doesn't insult Orcs if the PC is an Orc.
+- FMI - Athyn and Shardie. Their appearances now better reflect lore (Hope of the Redoran).
+
+Changes in LDM - Choices and Consequences 0.39
+========================================================
+Scripts:
+-- fixes to luce_ldm_bloodbathAftermath. One getDeadCount was checking the wrong NPC, and one of the CT thugs was facing the wrong direction after moving.
+-- added luce_ldm_critoClothes to switch Crito Olcinius's robe from a Temple-specific robe to a generic robe
+-- added luce_ldm_removeRoasts to remove the Scrolls of Fiercely Roasting from Hlendrisa Seleth. Adds scrolls of Hellfire instead.
+-- added luce_ldm_removeSarethiBodies
+
+======== LDM - Permacorpse Disposal ================
+[House Hlaalu: Murder of Ralen Hlaalo]
+-- Nileno Dorvayn will tell you that burial arrangements have been made for Ralen Hlaalo once the mystery of his murder is resolved (if you're Hlaalu. If you're Redoran, Telvanni, or unaffiliated, she'll assume you don't care, give you the reward, and arrange the burial anyway).
+
+[Thieves Guild: Brother Nads]
+-- Gentleman Jim Stacey will be a gentleman and arrange for Nads Tharen's body to be respectfully buried (disabled) after the quest is complete.
+
+[House Redoran: Guard Sarethi Manor]
+-- the Morag Tong and Redoran guard corpses will be cleared away on cell change after the attempted assassination. Rotting corpses aren't great decor.
+-- Disables triggered by turning the quest in to Neminda.
+-- new script: luce_ldm_disableSarethiBodies
+
+NPCs who will be disabled:
+-- redoran guard sarethi1
+-- redoran guard sarethi2
+-- gragus lleran
+-- arsyn salas
+
+========= FMI - Gavrilo's Package ====================
+https://www.nexusmods.com/morrowind/mods/48003
+
+[ Imperial Cult: Scroll of Fiercely Roasting ]
+-- The Scroll of Fiercely Roasting is meant to be an Imperial Cult artifact, but the Telvanni Hlendrisa Seleth has ten copies of it for sale. Removes the Scrolls of Fiercely Roasting from Hlendrisa Seleth and replaces them with Scrolls of Hellfire instead.
+
+[ Temple: Slay Raxle Berne ]
+[[ Galom Daeus ]]
+-- There are two lines where Tharer Rotheloth tells you to go kill Raxle Berne and gives you the holy implements of the Temple's vampire hunters. One of the items he gives you is a Belt of Balyna's Soothing Balm, however Balyna is an *Imperial Cult* saint. Gavrilo's implementation switches it out for a Veloth's Robe, however there is a THIRD line where you can receive the holy implements: if, without being given the quest, you've already killed Raxle Berne, Tharer Rotheloth will give you the implements. In this entry, instead of a Belt of Balyna's Soothing Balm, he gives you a Saint's Shield instead.
+
+LDM Fix: All three entries now give you a Saint's Shield.
+-- This is a lot more generous, but it's not unreasonable, imo. He's already giving you a unique daedric warhammer, and Saint's Shields are available from several Temple enchanters.
+
+[ Main Quest: gra-Muzgob Informant ]
+[[ Sharn gra-Muzgob ]]
+-- Adds a new race-specific line for Orcs when talking about how Sharn gra-Muzgob is smart "for an orc".
+-- Differs slightly from Gavrilo's implementation: where he adds "no offense" to the insult, I just remove the insult. As a spymaster, Caius seems like he would be well-practiced at watching his words.
+
+=== [ Merged in: PoodleSandwich's FMI - Athyn and Shardie ] =====
+https://www.nexusmods.com/morrowind/mods/47322
+
+Changes Athyn Sarethi and Shardie's appearances to better reflect their ages in lore, according to the book Hope of the Redoran.
+
+-- Athyn's head model changed from b_n_dark_elf_m_head_05 to b_n_dark_elf_m_head_09
+-- Shardie's head model changed from b_n_redguard_f_head_01 to b_n_redguard_f_head_05
+
+===== [ Merged in: Ithilien87's Hlaalu Rank Adjust ] =============
+http://mw.modhistory.com/download-87-5839
+
+A small subset of Hlaalu Rank Adjust changes included, specifically the NPC rank changes and the "background" dialogue entries to support them.
+
+Does not include any of the Yellow Register or post-Councillor changes.
+
+NPC changes:
+[ almse arenim ] Lawman -> House Cousin
+[ avon oran ] Kinsman -> House Cousin
+[ baren alen ] Oathman -> Kinsman
+[ nileno dorvayn ] Kinsman -> House Cousin
+[ ondres nerano ] Hireling -> Kinsman
+[ ralen hlaalo ] Hireling -> Kinsman
+
+[[ background ]]
+- Dondos Driler: I'm %name, %rank and Grand Surveyer for %faction.
+- Galasa Uvayn: I am %name, %rank and Grand Treasurer for %faction.
+- Edryno Arethi: I am %name, %rank and Overseer of Business for %faction here in Vivec.
+- Nileno Dorvayn: I am %name, %rank and Overseer of Business for %faction here in Balmora.
+- Relen Hlaalu: I am %name, %rank and Hlaalu emissary to the Grand High Council.
+- Avon Oran: I am %name, %rank of %faction, and Governer of Suran.
+- Baren Alen: I am %Name, Keeper of the Keys and %Rank of %Faction.
+- Almse Arenim: I am %name, %rank of %faction, and Governer of Gnaar Mok.
+- Odral Helvi: I am %name, %rank of %faction, and Governer of Caldera.
+
+===== [ Balmora: Larrius Varro Tells A Little Story ]  ======
+-- In vanilla, Larrius lets you know that the "nice present" comes from the Emperor. LDM changes it so that you only get to know it comes from the Emperor if you're part of the Blades. Otherwise, Larrius will be vague about where the nice present comes from. For people RPing non-Blade/non-Nerevarine characters.
+
+[[ town_balmora ]]
+[edit] 3: "nice present from the Emperor" -> "nice present for me". 
+[edit] 30: "the "nice present from the Emperor"" -> "his "nice present""
+[edit] 35: "the "nice present from the Emperor"" -> "his "nice present""
+--- Leaves it ambiguous so it fits either the vanilla line or Larrius's new lines for players who haven't joined the Blades
+
+[[ nice present ]]
+-- Vanilla line "What is the nice present from the Emperor..." filtered for membership in the Blades
+-- New line omitting reference to the Emperor added
+
+[[ work ]]
+-- any of Larrius Varro's vanilla lines which reference the Emperor now filtered for Blades membership
+-- replacement lines added with references to the Emperor omitted for non-Blades characters

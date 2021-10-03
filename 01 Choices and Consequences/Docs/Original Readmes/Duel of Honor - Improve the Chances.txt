@@ -1,0 +1,18 @@
+Duel of Honor - Improve the Chances
+by Gavrilo93 
+
+https://www.nexusmods.com/morrowind/mods/47393
+
+The vanilla House Redoran quest, Duel of Honor﻿, makes you convince a Redoran noble to agree to a duel with a Hlaalu. However, even though the script and the dialogue for him winning the duel is in the CS, it never happens. He doesn't stand a chance against his opponent, even with the ten potions he makes you buy.
+
+This mod changes that. In addition to the ten potions, you can also get a Glass Netch Dagger to him which improves his chances so much that all the time this mod has been tested (about 10 times) he won the duel. Naturally, it is all optional, you can still elect to just deliver the potions like in vanilla, and thus make him die by the hands of the Hlaalu opponent.
+
+Ample information will be given to you about one of the locations of a Glass Netch Dagger, and as a bonus, the dialogue points you to a dangerous outlaw who possesses such a weapon. So you can be super Redoran-like, who not only helps out a fellow Redoran in trouble, but also eliminates this dangerous outlaw in the process, in order to get the weapon. But naturally, any Glass Netch Dagger will be accepted that you may have picked up during your adventures, it's just a little bonus dialogue for you to make the acquisition easier.
+
+But isn't this dishonorable for a Redoran?
+
+No, because the opponent has a claymore with a poison enchantment and an almost full set of Bonemold Armor, while our guy is without armor and only has a measly silver dagger in vanilla. It's fair play. But even if you feel this way, you are still free to elect to just bring the potions.
+
+Bugs: More like a minor inconvenience. If the Redoran wins, you need to talk with him to update your journal, before you report back to the quest giver. As I mentioned, the script for the Redoran winning and the Hlaalu losing has been put into the CS by Bethesda. The journal entry upon the death of the Hlaalu should trigger, just like in the case when the Redoran dies. However, this script does not work properly, and the proper journal entry does not trigger when the Hlaalu dies, only when the Redoran does. I've tried modifying the script, but it just doesn't seem to work, no matter what I do. Therefore, as a solution I simply attached the journal update to the dialogue that the Redoran guy has once he wins the duel. So all you need is talking with him one more time, really. Just pretend you congratulate him on the successful duel, or something. The rest of the quest (including the vanilla ending, when the Hlaalu wins) should work flawlessly.
+
+The mod has been cleaned with TESAME, and should be compatible with everything, including mods that modify the Arena cell, such as Welcome to the Arena﻿ or Morrowind Rebirth﻿. (I don't actually know whether it modifies the Arena cell, but probably it does, lol. The point is that this mod doesn't, so it should be safe with any such mod.)

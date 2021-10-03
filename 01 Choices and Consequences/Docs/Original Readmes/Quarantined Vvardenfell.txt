@@ -1,0 +1,11 @@
+According to PoodleSandwich’s List of Morrowind Inconsistencies, the vanilla dialogue of Asciene Rane suggests that travel from Vvardenfell to the Mainland is restricted, due to the Blight disease. However, in the vanilla game nothing happens if you request teleport to Mournhold when you are diseased.
+
+This mod fixes that. In case you have a blight disease, Asciene Rane is going to reject your request, and won’t teleport you to Mournhold until you are cured. The same restriction has been applied to Common Diseases and the Corprus Disease, as it wouldn’t make sense to allow the carriers of one type of disease to travel, but not the carriers of another one, especially if we consider that according to the lore, some of the Common Diseases are quite dangerous as well. (Not to mention Corprus…)
+
+The mod works with the addition of new dialogues instead of the modification of already existing ones, therefore any mod that modifies Asciene Rane’s dialogue (such as Tamriel Rebuilt) should be compatible with this one.
+
+The mod has been cleaned with TESAME and should be bug-free.
+
+Credits:
+
+Thank you, PoodleSandwich, for the idea!

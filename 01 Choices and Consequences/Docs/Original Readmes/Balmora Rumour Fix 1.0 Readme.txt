@@ -1,0 +1,20 @@
+Balmora Rumour Fix + Varro quest refusal
+by Lucevar
+==================================
+version 1.0
+==================================
+
+Did you know that Balmora actually has a LOT of responses for the latest rumours topic? Yeah, me neither. The only thing you ever hear about is Larrius Varro and his beef with the Camonna Tong. And since you can't avoid hearing about it, and you also can't turn the quest down, it will just sit in your journal forever if you don't want to do the quest (eg if you're roleplaying a pacifist or a Dunmer nationalist type character).
+
+Well, not any more!
+
+Instead of the ~4 rumours you hear in vanilla, 16 general rumours are now available, plus lots of faction and NPC specific rumours (try talking to members of House Hlaalu, Heddvild, or Only-He-Stands-There, for example) that got drowned out by the Varro rumours. The Varro rumours will still appear, just MUCH less frequently. Some rumours will only appear once you've progressed past a certain point in the main quest. 
+
+This mod also adds the option to turn down Varro's quest. He'll still tell you his little story, and you can still complete the quest by dealing with the bad people later - it just won't clutter up your journal. 
+
+Finally, there was a rumour about the Twin Lamps assigned to members of the Imperial Legion in Balmora. By default, there aren't any members of the Legion in Balmora, so I assigned that rumour to Moonmoth Legion Fort instead. Requires a reasonably high rank in the Legion (Agent), and a disposition of 50. 
+
+Change log
+===================================
+Version 1.0
+- Initial release.

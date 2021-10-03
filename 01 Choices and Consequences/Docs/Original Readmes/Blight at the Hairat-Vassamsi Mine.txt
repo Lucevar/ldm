@@ -1,0 +1,19 @@
+Blight at the Hairat-Vassamsi Mine
+by Gavrilo93  
+https://www.nexusmods.com/morrowind/mods/47589
+
+At the outpost of Maar Gan, there is a note﻿, describing a fallen Redoran warrior who tried to remove the blight from the Hairat-Vassamsi Egg Mine. While in vanilla, the player is free to take this quest upon himself, no one in the game acknowledges the deed.
+
+With this mod, upon reading the note, a quest will be offered to cure the kwama queen of the mine. You can go there, and do it. The people of Maar Gan are going to acknowledge your deed, if you talk with them after doing the quest, and there will be a small disposition boost for mentioning the name of the mine. In addition, if you return to the mine later, you will notice that it is filled with egg miners, as the mine is operational again. A quest, which should have been in the game in vanilla, and another way to make it look like your actions have an effect on the world of the game.
+
+Incompatibilities:
+
+Everything should be fine, even those mods that modify the cells of the egg mine. The only mod which conflicts with this one is Pax Redoran, as that mod also contains a quest to deal with the blight infection of that particular mine. (I decided to make this mod anyway, because I wanted a more purist solution for doing it than killing a mutant kwama queen and raising a new one, and also one that anyone could take, not only the members of House Redoran.) It's up to you to decide which mod do you prefer.
+
+Clean? Bug-free?
+
+Yes, yes.
+
+How do I begin the quest, again?
+
+Read the note at the Maar Gan outpost which describes the Redoran warrior who failed removing the blight from the mine.

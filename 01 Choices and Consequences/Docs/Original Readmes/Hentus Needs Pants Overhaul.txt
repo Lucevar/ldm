@@ -1,0 +1,9 @@
+https://www.nexusmods.com/morrowind/mods/47369
+
+The vanilla quest, Hentus Needs Pants﻿, can be completed in the usual methods: You can steal the pants, you can kill the thief, or you can raise his disposition until he gives them to you willingly.
+
+However, mostly when I'm in Gnisis, I'm there to join the Legion and do the quests of General Darius. Naturally, as a guard of Imperial Law, I never reject this poor egg miner's request to retrieve his pants. But none of the vanilla methods fit the personality of a guard. My character would definitely not steal or kill, but definitely wouldn't beg to the thief to give the pants back either. Therefore this mod adds another option: You can simply demand the pants back based on your authority as a member of the Legion, and by reminding the thief that theft is punishable by Imperial Law.
+
+As a bonus feature, if you have the generic, identical version of Hentus' pants in your inventory (common_pants_02), you can just offer it as a gift instead of the stolen ones. While I understand that Hentus may be attached to his own pants and want them back specifically, I think that in an emergency case (when your other option is going home naked) any pants would do. So now you have this option too. By the way, the identical, generic version of the pants can be bought at one of the stalls next to the Temple. It might be a good alternative method to complete the quest if none of the other options suit you, or if you have those pants in your inventory, and would prefer to give them up over running around for Hentus' pants.
+
+The mod is bug-free, clean and compatible with everything, including Rebirth﻿.

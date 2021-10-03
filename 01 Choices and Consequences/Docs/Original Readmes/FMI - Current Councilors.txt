@@ -1,0 +1,9 @@
+https://www.nexusmods.com/morrowind/mods/47342
+
+I discovered this inconsistency while watching George's Let's Play on Zero Period Productions. I believe he does a better job at describing the issue than I could here:
+
+https://youtu.be/XnHMIUiyLVQ?t=1523
+
+This mod fixes it so that if Bolvyn Venim is dead, he will be removed from Athyn's list of current councilors and he will be referred to in the past tense thusly:
+
+"Ondres Nerano, a Hlaalu Noble, claims that Archmagister Bolvyn Venim was guilty of certain indiscretions with the wife of another councilor. While I do not approve of all the Archmaster did, as a Councilman of House Redoran I cannot let this accusation stand. I want you to stop Ondres Nerano's slanders."

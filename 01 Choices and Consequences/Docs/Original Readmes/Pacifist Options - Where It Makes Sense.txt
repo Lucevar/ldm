@@ -1,0 +1,16 @@
+by Gavrilo93
+https://www.nexusmods.com/morrowind/mods/47961
+
+Provides you pacifist options to complete several quests in vanilla Morrowind - provided that it would make sense that such an option would exist. That is, a pacifist option doesn't already exist in vanilla, and the context of the quest allows you to pursue a pacifist solution - for example, if you are told to kill an evil necromancer or similar, it wouldn't make sense to provide you a pacifist option. Not necessarily because your character doesn't want to be friends with the evil necromancer, it's the evil necromancer who doesn't like the idea.
+
+With these guidelines in mind, pacifist options have been provided for four vanilla quests altogether:
+
+Imperial Cult: Ring in Darkness: Two exquisite rings have been added into the inventory of Galmis Dren, and a script makes him equip them too, so you may pickpocket the Ring of the Wind from his inventory, optionally hand over the Divine Intervention Scroll to Jon Hawker, and sneak away - provided that you are good enough at sneaking, or have magical means to conceal yourself. Since Galmis Dren is hostile, you would also need to have a Calm Humanoid spell at hand, because vanilla mechanism doesn't allow you to pickpocket NPCs in combat.
+
+Imperial Cult: Ice Blade of the Monarch:Similar method as in the case of Galmis Dren. Two exquisite rings are added into his inventory so that you can pickpocket Adusamsi's Ring, but also a Glass Dagger has been added so if you're a really good thief you may pickpocket the Ice Blade of the Monarch too, lol. Free Adusamsi, and sneak away without killing anyone, if you're skilled enough.
+
+Thieves' Guild: Loot the Mages' Guild:If you're a member of the Mages' Guild yourself, the guard will assume that you have honest intentions for entering the Guildhall, and would leave you alone. If you're not a member of the Mages' Guild, he will still turn hostile.
+
+Fjol the Outlaw:If you pay up to Fjol, instead of fighting him, you can report his location to Larrius Varro, and an Imperial Legion patrol would go out later and capture him. With this mod, you would actually see him end up in the prison of Fort Moonmoth later.
+
+The mod has been cleaned with TESAME and, it has been tested several times, and no bugs or incompatibilities have been encountered.

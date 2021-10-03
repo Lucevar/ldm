@@ -1,0 +1,167 @@
+LDM - Choices and Consequences
+v0.41 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Installation
+======================================================
+
+Load Order:
+- Patch for Purists.esm
+- Patch for Purists esps
+- LDM - Context Matters.esp
+- LDM - Choices & Consequences.esp
+- Hlaalu Rank Adjust, Roleplay Options for GHH, etc.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Gavrilo93
+LDM - Balmora Rumour Fix by Lucevar
+FMI - HulStop by PoodleSandwich
+FMI - Legion Dialogue by PoodleSandwich
+FMI - Note from the Archcanon Fix by PoodleSandwich
+FMI - Current Councilors by PoodleSandwich
+Quest Choices by Remiros (previously unreleased)
+Hentus Needs Pants Overhaul by Gavrilo93
+Ajira Deflowered by Gavrilo93
+Oath to St. Roris Instead by Gavrilo93
+NPC Faction Affiliator Corrector by Gavrilo93
+FMI - Athyn and Shardie by PoodleSandwich
+FMI - Gavrilo's Package by Gavrilo93
+Pacifist Options - When It Makes Sense by Gavrilo93
+
+Partially Included Mods
+========================================================
+Hlaalu Rank Adjust by Ithilien87 - LDM includes only the NPC rank and "background" topic changes from Hlaalu Rank Adjust. Compatible if you load Hlaalu Rank Adjust after LDM - C&C for the full Hlaalu Rank Adjust changes.
+
+Recommended Mods
+========================================================
+- MWSE Pickpocket by Mort - Makes pickpocketing actually functional, thus providing pacifist options in a LOT of different scenarios. 
+- Roleplay Options for Great House Hlaalu by Caeris & Luj1
+- Courtesy by Chantox
+- Nationalist Nerevarine by Gavrilo93
+
+High Level Feature Changes in 0.41
+=======================================================
+-- You now get +1 reputation if Ulyne Hlenim gives a glowing report of you to the Buoyant Armigers in the Fighters Guild: Vas quest.
+-- The racist thugs pestering Huleeya will now be racist to you as well if you're playing a beast race.
+-- Gavrilo's Pacifist Options: Imperial Cult: Ring in Darkness and Ice Blade of the Monarch quests are now completeable by pacifist means. Rings are added and forceequipped to Galmis Dren and Lleran Terano so that the quest objects can be pickpocketed.
+-- Gavrilo's Pacifist Options: during the Thieves Guild: Loot the Ald-ruhn Mages Guild quest, the guard won't attack you if you're a member of the mages guild in good standing.
+-- Gavrilo's Pacifist Options: If you pay Fjol the 100 gold, you can now report his location to Larrius Varro and close the quest that way. Fjol will turn up in jail if you do. He's... not happy.
+-- Major changes to the first two Imperial Legion quests.
+----- Cure Blight quest now comes before the Land Deed quest. 
+--- Hetman Abelmawia will now give you one free scroll of cure blight (he says he'll charge it to the Legion). 
+--- With sufficient speechcraft skill you can convince Lugrub gro-Ogdum to help you fight the kwama warriors to get to the blighted queen. Orcs have an easier time passing this check.
+--- Lots of new dialogue additions contextualising the quest (including why no-one has cured the queen before now) and warning you about the potential dangers from the kwama warriors.
+------- Land Deed quest has several new RP option additions. 
+--- You can start and complete the investigation into Mansilamat's murder without being a member of the Imperial Legion. Talk to Widow Vabdas about the eggmine.
+--- You can now properly confront Lugrub gro-Ogdum and give him the chance to turn himself in (although he won't take it). 
+--- You can side with Lugrub and cover up the murder if you select the right options. He's not inclined to trust you, though.
+--- Darius will now offer you a choice of three weapons: Imperial Broadsword, or newly-added Imperial Spear or Imperial Mace (created by Remiros).
+--- Widow Vabdas will no longer recommend that you join the Legion.
+
+
+========= [Fighters Guild: Vas] ============================
+-- You now get +1 reputation if Ulyne Hlenim gives you a glowing report. No change if your performance is merely satisfactory.
+
+======== [Main Quest: Vivec Informants] =====================
+-- Ethys Savil and friends Favel Gobor and Urven Davor now come with 100% more racist greetings. They're not only racist to Huleeya, but racist to you, too, if you're a Khajiit or Argonian. Disposition drops twice as much for beast race characters.
+
+======== Imperial Legion: Darius's Quests ====================
+-- Makes Darius a little bit saner. Darius now gives the Cure Kwama Queen quest first, followed by the land deed quest. Who cares about potential new docks if the town's main industry is shut down by blight? And who gives a potentially delicate negotiation task to someone who is not just a newbie, but literally COMPLETELY UNTRIED? You've never so much as killed a scrib on behalf of the Legion but he trusts you with this? Nah.
+
+[Imperial Legion: Cure Kwama Queen]
+-- This is now the first quest Darius will give you.
+Scripts: 
+-- lugrubScript edited to reflect the changes in journal indices. New local added to track whether or not he's agreed to help you.
+-- doors in Gnisis, Lower Eggmine cell changed to luce_ldm_lugrub_door with script luce_ldm_lugrub_nof to prevent him from following you out of the cell.
+-- kwamaQueenGnisis script edited to reflect the new quest order, and to stop lugrub following you after she's cured.
+
+[[ Greeting 1 ]]
+-- Adds a sentence explaining that Lugrub gro-Ogdum has been posted to keep the warriors from breaking out of the Queen's chamber and attacking the miners.
+-- With high enough speechcraft (45), convince Lugrub to help you fight the Kwama Warriors. Otherwise, he'll tell you that he's been posted to make sure they don't escape the room, not to fight them. Orcs have an easier time passing this check (30) and get a unique line if they do.
+
+[[ Eggmine ]]
+-- General Darius, first quest-giving response: Adds a sentence explaining that the reason nobody has cured the Queen yet is because the kwama warriors have gone berserk and are attacking anyone who gets close, even miners.
+-- Hetman Abelmawia: adds a line about how the last miners who tried to cure the queen came back badly wounded, and warns the player about the kwama warrior's shock magic.
+-- Added a line acknowledging Lugrub's death if he dies during this quest.
+
+[[ Cure Blight ]]
+-- Hetman Abelmawia will give you one, and only one, scroll of blight curing if you're on the quest. He says he'll bill the Legion for it.
+-- Adds a new journal series to track this: luce_ldm_IL_BlightScrolls
+[new] 5: Hetman Abelmawia gave me a scroll...etc
+
+
+[Imperial Legion: Land Deed]
+[[ luce_ldm_IL_Mansilamat ]]
+[new] 50: Ghost of Mansilamat told me he was murdered and that the murder weapon is nearby.
+[new] 100: Widow Vabdas thanked me for ensuring Lugrub gro-Ogdum was brought to justice for murdering her husband.
+[new] 150: I agreed to help Lugrub gro-Ogdum cover up the death of Mansilamat Vabdas.
+
+[[ IL_WidowLand ]]
+[new] 130: Darius believed my testimony and has ordered Lugrub gro-Ogdum's arrest.
+
+-- Moved Mansilamat's journal entry to a journal series of its own, to allow for various quest completion options.
+-- vabdasGhostScript edited so that Mansilamat's ghost is there even before land deed quest is started/before Widow Vabdas tells you about the murder.
+
+[[ greeting 1 ]]
+-- ancestor_ghost_vabdas (mansilamat): filtering changed from IL_WidowLand to luce_ldm_IL_Mansilamat. He will now tell you about his murder regardless of land deed quest status. 
+
+[[ Lugrub gro-Ogdum ]]
+-- Journal filters changed to luce_ldm_IL_Mansilamat
+
+[[ husband was murdered ]]
+-- remove filters restricting it to legion characters
+
+[[ proof ]]
+-- filter changes and new lines for non-IL characters
+-- non-IL characters can now complete the quest
+
+-- Allow non-Legion characters to investigate the murder, beginning by speaking either to Widow Vabdas or by finding Mansilamat's ghost.  
+-- After speaking to Mansilamat's ghost, either before or after retrieving Lugrub's axe, but BEFORE bringing Darius the axe as proof, you can speak to Lugrub and arrange a proper coverup of the murder. Lugrub will give you some flin as thanks. You'll have to steal the land deed to finish the quest in this scenario.
+-- Add an option to accuse Lugrub of the murder before turning in the proof instead of conspiring with him to cover it up as per the previous option (in vanilla, if you talk to him while carrying the axe he just attacks you)
+-- Add an option to accuse Lugrub of the murder after turning in the proof, tell him he's been declared an outlaw, and that you will deliver justice.
+-- Axe -> axe
+-- Reward: Darius now asks what your preferred weapon is and offers a choice between an Imperial Broadsword, an Imperial Spear, or an Imperial Mace as your reward for this quest. Darius mentions that maces are favoured by many knights.
+-- Added Remiros' Imperial spear. 
+-- Added Remiros' Imperial mace. 
+
+[[ widow vabdas ]]
+-- adds a line to the egg miners about mansilamat's death
+-- darius will mention the donation fund here if the player hasn't contributed.
+
+[[ little advice ]]
+-- Widow Vabdas shouldn't recommend joining the legion. Filtered that line for Not ID = Widow Vabdas. 
+
+
+===== Gavrilo93's Pacifist Options - When It Makes Sense ======= https://www.nexusmods.com/morrowind/mods/47961
+
+[Imperial Cult: Ring in Darkness]
+-- Galmis Dren: Adds and force equips two exquisite rings. Now if you calm him it will be possible to pickpocket the Ring of the Wind and finish the quest without killing him.
+-- Adds an extra line to Jon Hawker that acknowledges the death of Galmis Dren if you kill him.
+
+[Imperial Cult: Ice Blade of the Monarch]
+-- Lleran Terano: adds and force equips two exquisite rings. Now if you calm him it will be possible to pickpocket Adusamsi's Ring and finish the quest without killing him. LDM change: DOES NOT force equip another weapon. You'll have to kill him if you want the Ice Blade of the Monarch, since that's not required to complete the quest and it seems unlikely that you would be able to pickpocket it.
+
+[Bitter Coast: Fjol the Outlaw]
+-- If you encounter Fjol and give him the money he demands instead of fighting him, you can report his location to Larrius Varro and have the guards arrest him. He'll appear in prison in Fort Moonmoth later. You'll get a lesser reward for taking this path.
+
+[[ MV_Bastard ]]
+
+[new] 120: I told Larrius Varro the location of Fjol the Outlaw. 
+
+[[ careless travelers ]]
+-- adds a new line if the player paid Fjol the 100 gold. Larrius Varro will accept the information about Fjol's location and send a force out to arrest him.
+
+[[ greetings 5 ]]
+-- Adds a greeting for Fjol when he's in prison.
+
+[Thieves Guild: Loot the Mages Guild]
+-- The sentry will no longer be hostile if you're also a member of the Mages Guild in good standing.
+
+[[ greeting 1 ]]
+-- adds a new, non-hostile line for members of the mages guild who haven't been expelled.
+
+

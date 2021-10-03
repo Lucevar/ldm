@@ -1,0 +1,88 @@
+LDM - Choices and Consequences
+v0.3 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Gavrilo93
+LDM - Balmora Rumour Fix by Lucevar
+FMI - HulStop by PoodleSandwich
+FMI - Legion Dialogue by PoodleSandwich
+FMI - Note from the Archcanon Fix by PoodleSandwich
+FMI - Current Councilors by PoodleSandwich
+Quest Choices by Remiros (previously unreleased)
+Hentus Needs Pants Overhaul by Gavrilo93
+
+Changes in LDM - Choices and Consequences 0.3
+========================================================
+Scripts: added getDeadCount checks for the two thugs and Hul in bloodbathAftermath script so they don't get moved/changed if they're dead.
+
+=== [Gnisis: Hentus Needs Pants] ===
+Integrates changes from Gavrilo93's Hentus Needs Pants Overhaul and Remiros's unreleased Quest Choices mod.
+https://www.nexusmods.com/morrowind/mods/47369
+
+[[ MS_HentusPants ]]
+[new] 90: decided to keep Hentus' pants
+[new] 95: brought Hentus replacement pants
+[new] 110: Hentus thanked me for returning his pants.
+
+[[ greetings 5 ]]
+-- Changed filter to MS_HentusPants < 90
+
+[[ pants ]]
+dealing with hainab:
+-- original choice intact: raise his disposition to 80
+-- new choice: as a member of the Legion in uniform, order Hentus to give the pants back
+-- new choice: Intimidate Hainab into returning the pants [50 strength]
+-- new choice: Convince Hainab the prank is in poor taste [45 speechcraft]
+-- new reaction lines depending on how you complete the quest (keep pants, give replacement pair)
+
+dealing with hentus:
+-- new choice: gift him a pair of identical pants. He'll accept them if you insist, but you'll only get one hackle-lo as a reward instead of 3.
+-- new choice: tell him the reward is inadequate and ask for more [60 speechcraft]
+-- Choices are now dialogue rather than actions
+-- Hentus' disposition will now drop if you decide to keep the pants. Keeping them will also finish the quest. Added a new reaction line if you do decide to keep them. 
+-- added a new response at journal ms_hentuspants = 10 "Please hurry, this river is cold." rather than repeating the request to find the pants.
+
+=== [West Gash: Pemenie and the Boots of Blinding Speed] ===
+Integrates GAMA's changes with changes from Remiros's unreleased Quest Choices mod.
+
+[[ MV_TraderAbandoned ]]
+10: changes the note about where Pemenie is found from "west of Balmora" to "north-east of Caldera"
+40-70: no longer used, but left in because deleting vanilla entries seems dicey. Functionality moved to GAMA_pricePemenie instead.
+110: Changed from "While escorting Pemenie to Gnaar Mok" to "Pemenie the Trader met an unfortunate end" to fit several scenarios where she dies.
+120: Finish quest. Made a deal with Pemenie and bought the boots.
+130: Threaten to report Pemenie to the guards. Intimidate her into giving up the boots.
+140: I tried to threaten Pemenie into giving me the boots, but I didn't pull it off.
+
+[[ GAMA_PricePemenie ]]
+Journal series tracking Pemenie bounty info.
+-- change local updates about Pemenie's bounty to reference PricePemenie 5
+
+5-8: Relocated vanilla MV_TraderAbandoned 40-70 to here to make it easier to track & refer to them in the quest choices
+10: turn in the bounty. Finish.
+
+[[ greeting 5 ]]
+GAMA: new greeting for when Pemenie relocates to Zainsipilu.
+Remiros QC: new greetings for journal entry 120 and 130
+
+[[ making a deal ]]
+-- new choice: "not yet, but maybe later"
+-- new choice: buy the boots of blinding speed for 1000 gold, without escorting Pemenie.
+-- new choice: if you've heard about her bounty (GAMA_PricePemenie 5), you can attempt to threaten her into giving you the boots. Requires Speechcraft > 40 to succeed.
+
+[[ bounty ]]
+GAMA: Adds responses in Caldera and Gnaar Mok about the consequences of her actions finally catching up to her. Adds a script to her attack response that prompts the player to collect her bounty once she's dead.
+-- "there's a price on her head" -> "there's a price on Pemenie's head" in case the player gets access to the topic before meeting Pemenie and therefore has no idea who it's referring to.
+-- Added a unique response for Verick Gemain, as the generic response doesn't flow well with his unique "someone in particular" line for Pemenie.
+
+[[ someone in particular ]]
+-- verick gemain will warn you about Pemenie's bounty
+
+[[ Pemenie the Trader ]]
+-- Added a unique response for Verick Gemain, as the generic response doesn't flow well with his unique "someone in particular" line for Pemenie.
+-- You can collect the bounty on Pemenie from any guards who aren't Telvanni
+-- Responses in Caldera and Gnaar Mok depending on whether or not Pemenie is alive

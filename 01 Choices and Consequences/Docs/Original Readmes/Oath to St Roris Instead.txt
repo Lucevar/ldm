@@ -1,0 +1,16 @@
+===== Gavrilo93's Oath To St Roris Instead =============
+https://www.nexusmods.com/morrowind/mods/47339
+
+I'm roleplaying an Ordinator character right now, who is a fanatic believer of the Tribunal Temple and loathes everything connected to the Empire. However, she is also a good person and helps people whenever she can. She was on her way back from a Sixth House shrine, when she stumbled upon a trader who asked her to deliver a shipment of weapons to Ald-ruhn. I wanted to accept the quest, but then he asked my Ordinator to swear an oath to Zenithar, the god of the n'wah. Therefore, the best that I could do was rejecting the errand, and imagining that she says that she wishes to help, but swearing such an oath would be against her principles.
+
+I thought that it would be nice to complete this quest as a Tribunal faithful too, so I made this mod. It allows you to tell the traders in the quests, The Weapon Delivery﻿ and The Shirt of His Back﻿ that you wouldn't swear an oath to Zenithar, but you would gladly swear an oath to Saint Roris instead. As you may know, Saint Roris﻿ was a trader﻿, who refused to denounce his faith in Almsivi when the Argonians captured him. While it seems that traders themselves don't have a patron saint in the Temple, this particular saint seems to be the most suitable, as he is the patron saint of caravaners, and he was a trader himself in life. Also, depending on your imagination, it may add another layer to your character's response, when they talk with the Argonian trader.
+
+The mod is clean, and should be compatible with pretty much every other mod.
+
+Bugs:
+
+This mod is bug-free. If you refuse Lucan Ostorius' errand, and he attacks you when you leave Ald-ruhn, that's a vanilla bug, not a bug caused by this mod. Please don't bother me with that.
+
+Changelog:
+
+Version 1.1.: A little adjustment for the "Service Refusal" dialogue which occurs in Ald-ruhn, if you haven't delivered the shirts in "The Shirt of His Back" quest, to fit the new option better.

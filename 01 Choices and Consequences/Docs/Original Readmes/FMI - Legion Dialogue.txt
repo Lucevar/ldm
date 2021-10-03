@@ -1,0 +1,60 @@
+This module of my ongoing "Inconsistencies" module of my ongoing "Finished Morrowind" project addresses the following inconsistencies in Imperial Legion dialogue:
+
+Issue 01
+
+Imperial Guards and Legion members in Gnisis (including General Darius) talk about the Egg Mine being closed as though they are not the ones who are enforcing its closure, saying the same line as none-Legion NPCs in town: "It's up on the hill, on the east side of town. Careful in there, the kwama queen has been blighted. They're only letting miners in.” 
+
+Solution
+
+Members of the Legion will now tell you: “It's up on the hill, on the east side of town. Because the kwama queen has been blighted we are only granting access to miners at this time.”
+
+If the player is in the Legion (and wearing the uniform as of 1.1) the line for Legion members and other NPCs will be: “It's up on the hill, on the east side of town. Careful in there, the kwama queen has been blighted.”
+
+Issue 02
+
+When doing the Imperial Legion quest that requires you to get the Gnisis Egg Mine key from the Legion guard (Vatollia Apo) outside it, he will hand over the key to you if you are in the Legion, saying:
+
+"Since you're in the Legion, here's the key. Be careful."
+
+The problem is he will say this even if you have been expelled from the Legion.
+
+Solution
+
+Now the key line (topic: eggmine) is filtered for PC Expelled !=1 which means you will have to re-join the Legion before Vatollia Apo will say that line.
+
+Issue 03
+
+Legion NPCs still ask why you are out of uniform, why you are away from your post and generally address you as though you are a member of the Legion after you’ve been expelled.
+
+Solutions
+
+Greeting 1 line: "You're out of uniform. Talk to me when you're serious." now filtered for PC Expelled = 0
+
+Hello lines: "At ease", "Your bidding Sir/Knight/Agent/Trooper?" and "This is truly an honor." now filtered for PC Expelled != 1
+
+Hello line: "How dare you show your face." now filtered for PC Expelled = 1 (the vanilla filtering of ExpImperialLegion = -3 meant you could continue to hear the line "Why are you away from your post?" even after being expelled)
+
+Added new response to topic "Imperial Legion" for if the player is expelled. Instead of: "For the glory of Tiber Septim, you and I should be honored to be in its service."
+or giving you information on the Legion that you would probably already know if you had been a member, NPCs will simply respond with:
+"For the glory of Tiber Septim, it is an honor to be in its service."
+If you get expelled twice and are beyond the point of making amends, General Darius will say:
+"For the glory of Tiber Septim, it is an honor to be in its service. Although clearly this is something that *you* do not understand." (Filtered for PC Expelled = 1 and ExpImperialLegion > 0)
+
+Issue 04
+
+The most common text greeting for Legion NPCs fails to acknowledge the player’s membership. The line remains: “I'm an officer of the Imperial Legion. Move along.” even if the player is also an officer of the Legion and even if you are the Knight of the Imperial Dragon.
+
+Solution
+
+Added a simple text greeting, addressing the player by their rank, this works for all ranks in the Legion until you are Knight of the Imperial Dragon, at which point Legion NPCs will greet you with "Hail to the Knight of the Imperial Dragon!"
+These are also filtered to revert to vanilla should the player character be expelled.
+
+1.1 Update
+﻿
+Issue 05
+
+Vatollia Apo gives you the key freely if you are in the Legion but if you talk to him about the egg mine again he says "I already gave you the key, now get lost before they see us talking." and you get a disposition drop even if you have already started the quest where Darius sends you to the mine. Dialogue from Lugrub gro-Ogdum updates to reflect your authority to be in the mine but Vatollia's does not.
+
+Solution
+
+Now if you have started the quest IL_GnisisBlight, Vatollia will simply say "I already gave you the key." with no disposition drop.

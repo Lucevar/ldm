@@ -1,0 +1,29 @@
+https://www.nexusmods.com/morrowind/mods/48003
+
+I have encountered several inconsistencies in lore vs. gameplay, however many of them are too small to warrant their own mod. Therefore, I'm fixing them all in this mod. This package contains three fixes altogether:
+
+1. Artifact-y Scroll of Fiercely Roasting: 
+
+Lalatia Varian from the Imperial Cult tells you this: "%Rank %PCName, the healer Urjorad is overdue and presumed dead. He went to the Daedric shrine of Ashalmimilkala with a powerful artifact called the Scroll of Fiercely Roasting."
+
+However, for some reason you could buy ten of those scrolls from Hlendrisa Seleth at Tel Uvirith, in spite of its artifact status, as if it was an ordinary scroll. This mod removes the ten scrolls from her inventory, making it a unique item which you can only obtain from where the Imperial Cult quest leads you.
+
+2. No more heretical Molag Mar Temple Master: 
+
+Tharer Rotheloth gives you a Belt of Balyna's Soothing Balm before the Slay Raxle Berne quest. He refers to it as a "holy implement of the Temple:"
+
+"Please take the holy implements of the Temple's greatest vampire hunters. When you are ready, the elder vampire Raxle Berne hides from the light in the Dwemer ruin of Galom Daeus. I will mark Uvirith's Grave on your map. From there go south until you reach a river of lava. Follow that river to the west until it ends. Galom Daeus lies ahead of you across another pool of lava."
+
+However, the dialogue of the Imperial Cult priest, Synnolian Tunifus says it otherwise:
+
+"I see you have brought me a unit of netch leather. Here are several potions, and a little present -- a belt of Balyna's Soothing Balm. Saint Balyna is one of Mara's patron saints, and her dedicated service to the Nine Divines and their followers is a model for us all."
+
+This mod changes the item given by Rotheloth before the Slay Raxle Berne quest: It will be a Veloth's Robe﻿, which has a healing enchantment just like the Belt of Balyna's Soothing Balm, but at least bears the name of a proper Temple saint instead of an Imperial n'wah saint.
+
+3. PCus Cosades:
+
+In vanilla, when Caius Cosades talks about Sharn gra-Muzgob, he says the following:
+
+"Very smart. For an Orc. An unhealthy interest in the dark arts, perhaps, but very smart. She's always worried that the Temple will bust in and stick her in a fire. And worried with good reason."
+
+This mod changes this dialogue if you have an Orc character. He would simply say "no offense" after the first two sentences. If you have a character from any of the other races, the dialogue remains the same. I thought that it would make sense that he wanted to be on good terms with you.

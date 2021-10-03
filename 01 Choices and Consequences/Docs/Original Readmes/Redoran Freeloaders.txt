@@ -1,0 +1,15 @@
+https://www.nexusmods.com/morrowind/mods/47321
+
+According to PoodleSandwich's List of Morrowind Inconsistencies﻿, vanilla dialogue suggests that Redoran people should get accomodation for free at The Flowers of Gold in Vivec. However, you still have to pay for a room there, even if you are a Redoran.
+
+This mod fixes that. Now, if you belong to House Redoran, you get a room there for free, while if you're not a Redoran, you have to pay the standard fee, which is 10 gold.
+
+It has been suggested that I should make the publican deny service if you're not a Redoran, however I think that it would be dishonorable to do that with a tired and hungry traveller, which is not worthy for the Redoran way. So you can stay there with a different faction affiliation, you'll just have to pay, like everywhere else.
+
+The mod has been cleaned with TESAME, and bug-free.
+
+Compatibility:
+
+Partial compatibility with mods like Necessities of Morrowind﻿, that give you the opportunity to rent a room for more than a day. This mod doesn't touch vanilla dialogue for publicans, adds a new one filtered specifically for the publican of The Flowers of Gold. Therefore, everywhere else, you would still be able to enjoy renting a room for a week or month, but here the vanilla settings are used: You can rent a room for a day, for 10 gold, unless you are a Redoran, in which case it's free. (Nothing prevents you from renewing it every day as a Redoran freeloader, though.)
+
+Compatible with Rebirth!

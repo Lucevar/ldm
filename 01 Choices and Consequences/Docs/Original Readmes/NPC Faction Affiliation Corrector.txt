@@ -1,0 +1,62 @@
+========== Gavrilo93's NPC Faction Affiliator Corrector =============
+https://www.nexusmods.com/morrowind/mods/47743
+
+Adds NPCs into factions, that are not in a faction, but realistically should be, or change the faction of some NPCs that belong to one faction when they should belong to another. The main goal of this mod is to enhance the immersion of the game, which might be seriously broken if you walk into, let's say, the REDORAN stronghold of Molag Mar, and you find a bunch of independent people instead of Redoran people there. Additionally, it might also give a fresh experience of playing the game, as the usual mechanics coming from faction membership apply to these NPCs as well. (Disposition increase or decrease based on your actions in the game, being expelled from a faction if you commit a crime against these NPCs etc.)
+
+What NPCs are affected?
+
+The .7z file contains two .esp-s: A minimalistic and a maximalistic approach. It is up to you to choose which do you prefer.
+
+The "minimalistic" approach is the purist one which modifies the faction affiliation of people whom it is absolutely necessary:
+
+- Adds the Redoran Stronghold people in Molag Mar into House Redoran
+
+- Movys Daris, Tsrazami and seven NPCs located in the different Mehrunes Dagon shrines are added into the Dark Brotherhood. (Based on my other mod﻿ in which I give my reasons who should be a member and who should be just a Mehrunes Dagon cultist.)
+
+- People in the East Empire Company Hall are added into the East Empire Company
+
+- Hetman Abelmawia is added into House Redoran
+
+- Arvama Rathri, who belonged to House Hlaalu in vanilla, now belongs to the Camonna Tong instead
+
+- Ulyne Henim, who belonged to the Fighters' Guild in vanilla, now belongs to the Temple (She is a Buoyant Armiger who HIRES the Fighters' Guild)
+
+- All the Imperial Archers located in Imperial forts have been added to the Imperial Legion
+
+The maximalistic approach contains everything above AND several other changes that may be up to debate, may be inconvenient (e.g.: you need to kill the NPCs for a quest, and might get expelled for it), or may be uneccesary as the NPCs are dead, (so you can't actually talk with them) but this is how the mod looks like if I thoroughly changed the faction affiliation of everyone whom Bethesda got wrong/might have got wrong:
+
+- All the Venim manor people belong to House Redoran now
+
+- People with the "Hlaalu" surname who clearly don't have any other faction affiliation (Such as Eno Hlaalu) are added into Great House Hlaalu. Check the list here﻿. Eno Hlaalu (Grandmaster of the Morag Tong), the Temple priestess and the Ordinator are left untouched, just to clarify. The rest are in House Hlaalu now.
+
+- Processus Vitellius, who for some strange reason belonged to the Imperial Cult in vanilla, now belongs to the Census and Excise Office
+
+- All the Thieves' Guild members at Dren Plantation (all of whom are Dunmer) now belong to the Camonna Tong instead.
+
+- Sterdecan, Galyn Arvel and Jobasha belong to the Twin Lamps now (I left Ilmeni Dren untouched, she is an important Hlaalu questgiver)
+
+- I added a new faction called the "Dissident Priests" which mirrors the Temple faction with the exception that they are friendly with the Ashlanders and the Nerevarine. Everyone in Holamayan belongs to this faction now. (Who knows, this may serve as a base for a future joinable Dissident Priests mod ;) )
+
+- All the Buoyant Armigers in Molag Mar belong to the Temple now
+
+- Irer Nervion and Mendel Eves (fallen Buoyant Armigers) belong to the Temple now
+
+- Delyna Mandas, and all the people in Milk (including Delyna's father and his retainers) belong to House Redoran now
+
+- King Hlaalu Helseth and Barenziah belong to House Hlaalu now
+
+- Bonus feature: Crito Olcinius﻿, an Imperial Cult priest in the Royal Palace of Helseth used to wear an Indoril/Tribunal Temple robe in vanilla. He got a generic robe instead. I thought that it would fit the spirit of this mod, and it was a way too small change to create a separate mod for.
+
+Grievances:
+
+Can we have a version in which [insert feature here] is present but [insert feature here] is not? (Any variation of this question)
+
+I have already made two versions: a "minimalistic" version for purist people, and I also made a "maximalistic" version which is my vision, a lot of which could be debated either lore-wise or gameplay-wise. Obviously, I cannot be expected to come up with dozens of different versions to appease everyone's taste. I suggest you use TESAME﻿ to come up with further variations. If you need help with using that tool, I would gladly run you through. PM me.
+
+Compatibility! I'm dying to learn about compatibility!
+
+All this mod does is changing NPCs in a way that it adds them into factions, or changes their faction. (And changes the robe of one NPC) If there is a mod which also does that, there shouldn't be a problem either. The mod has been tested together with my Imperial Legion Expansion﻿ mod (which also adds the Imperial Archers into the Legion) and there weren't any issues, everything worked as expected. I think that it's safe to assume that the same would be true for any other mods. I also paid special attention to give the same ranks to these NPCs as in those other mods which contain some of the features of my mod. For example, the East Empire Company people in Ebonheart have the exact same ranks in my mod as in PoodleSandwich's FMI - Service Refusal and Contraband﻿ mod. So having them both active together wouldn't even cause the trivial issue in which the rank chosen by him is overwritten by the rank chosen by me, and also hopefully the instances of people complaining that "the rank of X NPC should be Y instead of Z!" will be minimal this way.
+
+Credits:
+
+Thank you for the people in the Morrowind Modding Community for giving me advice concerning the making of this mod!

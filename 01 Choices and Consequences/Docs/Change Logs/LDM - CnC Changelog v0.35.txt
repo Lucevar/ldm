@@ -1,0 +1,165 @@
+LDM - Choices and Consequences
+v0.35 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Gavrilo93
+LDM - Balmora Rumour Fix by Lucevar
+FMI - HulStop by PoodleSandwich
+FMI - Legion Dialogue by PoodleSandwich
+FMI - Note from the Archcanon Fix by PoodleSandwich
+FMI - Current Councilors by PoodleSandwich
+Quest Choices by Remiros (previously unreleased)
+Hentus Needs Pants Overhaul by Gavrilo93
+Ajira Deflowered by Gavrilo93
+Oath to St. Roris Instead by Gavrilo93
+NPC Faction Affiliator Corrector by Gavrilo93
+
+Changes in LDM - Choices and Consequences 0.35
+========================================================
+
+[ Temple: Cleaver of St Felms ]
+-- Fixes a typo in Uvoo Llaren's line "I am disappointed by ..."
+-- Changes Mendel Eves from a Nord to a Dunmer (as his name is clearly Dunmer and there is no mention of him being a Nord in the dialogue). I think it would be noteworthy if he WERE a Nord Buoyant Armiger!
+
+===== Gavrilo93's Oath To St Roris Instead =============
+https://www.nexusmods.com/morrowind/mods/47339
+
+[ West Gash: The Shirt of His Back ] && [ West Gash: The Weapon Delivery ]
+
+[[ MV_ThiefTrader ]]
+[edit] 10: "swear an oath to Zenithar" changed to "swear an oath"
+[edit] 20: "I have sworn a solemn oath to Zenithar" changed to "I have sworn a solemn oath"
+
+[[ MV_TraderLate ]]
+[new] 35: accept quest, with oath sworn to St. Roris
+
+[[ pressing business ]]
+-- Added choice 3 "I can swear an oath to Zenithar if you insist, but such an oath wouldn't mean anything to me. If you want an oath that is meaningful, I can swear to Saint Roris instead."
+
+[[ Rasha's shirts ]]
+-- GAMA: Rasha will relocate to Sadrith Mora once the shirts are given to Bivale Teneran
+-- added a line with a reference to being "oath-bound to Zenithar" changed to just being "oath-bound"
+
+[[ do me a favor ]]
+-- GAMA: Lucan will be disabled if you refuse the quest.
+-- Option to swear to Saint Roris instead added
+
+[[ Lucan's shipment ]]
+-- GAMA: script relocating Lucan Ostorius added, triggered when quest is successfully completed.
+
+[[ service refusal ]]
+-- Added refusal that references oath but not Zenithar, if MV_TraderLate = 35.
+
+================== [ LDM: NPC Changes ] ================
+
+-- Ajira's rank changed from associate to apprentice
+-- Galbedir's rank changed from journeyman to apprentice
+---- the plot thread where they're competing to get to journeyman doesn't make sense if Galbedir's already got there first.
+-- Sosia Caristiana added to Mages Guild as a journeyman (by GAMA)
+
+========== Gavrilo93's Ajira Deflowered ================
+https://www.nexusmods.com/morrowind/mods/47585
+
+-- Removes the willow anther and heather from Ajira's inventory. It makes no sense for her to send you to find her samples of them if she already has a restocking supply available.
+-- Adds a restocking supply of marshmerrow instead.
+
+Differs from Gavrilo's implementation in two ways: first, changes are accomplished by script, so it will be compatible with mods that change Ajira. Second, it adds marshmerrow instead of bloat and netchleather. 
+
+========== Gavrilo93's NPC Faction Affiliator Corrector =============
+https://www.nexusmods.com/morrowind/mods/47743
+
+There were a lot of NPCs that should belong to factions but didn't. Now they do.
+
+- NPCs in Molag Mar: Redoran Stronghold, Ald-ruhn manors, Milk now belong to House Redoran. Two very well-dressed commoners hanging out near Bolvyn Venim have been made nobles as well.
+--- Note: this may make certain quests harder if you belong to House Redoran, as you'll have to find a way to complete them without getting expelled.
+- Buoyant Armigers now belong to the Temple (and one of them has been un-Norded)
+- Dark Brotherhood NPCs from pre-Tribunal now belong to the Dark Brotherhood faction
+- East Empire Company NPCs from pre-Bloodmoon now belong to the East Empire Company faction
+- Dunmer Thieves Guild NPCs at Dren Plantation have been made Camonna Tong instead.
+- Helseth, Barenziah, and otherwise unaffiliated NPCs with the Hlaalu surname have been made part of House Hlaalu.
+- Known abolitionists such as Jobasha and Sterdecan are now Twin Lamps. Ilmeni Dren is left as Hlaalu.
+--- Added a line to [[ background ]] topic for Twin Lamps, so the new members of the Twin Lamps won't casually admit to being members of an illegal organisation.
+- Crito Olcinius, an Imperial Cult priest, no longer wears Temple robes.
+
+NPC Faction Affiliator Corrector adds a Dissident Priest faction, which I chose not to carry over, mostly because I wasn't sure how organised of a faction they can really be considered. I'd need to think more about this one.
+
+NPCs changed by NPC FAC whose changes I DID NOT keep for LDM:
+- arvama rathri -> She's not OPENLY Camonna Tong, and I think it's good to have the nuance of CT-sympathetic members of House Hlaalu show up.
+- beraren sadri, daynillo lleran, evesa omalas, felayn andral, fraki, gilvas barelo, mibdinahaz addunipu, taren omothan, tivam sadri are unchanged because I decided not to create a Dissidents faction (see above)
+hetman abelmawia - as per the Hetman Abelmawia dialogue I added in LDM - Context Matters, I see the Hetman as being a village official, chosen by the villagers to be their representatives to the Temple, the Legion, and House Redoran. In that light it doesn't make sense to keep NPC FAC's change that makes him Redoran.
+
+[ arethan mandas ] added to Redoran - House Father
+[ arver rethul ] TG at Dren Plantation -> changed to Camonna Tong - Hammer
+[ barenziah ] added to Hlaalu -> house father
+[ bevadar bels ] added to Redoran - Lawman
+[ bolrin ] EEC - underling -> agent in line with FMI - Service Refusal & Contraband
+[ canctunian ponius ] added to East Empire Company -> Factor
+[ crito olcinius ] robe changed from a temple robe to a generic robe
+[ dalami hlaalu ] added to Hlaalu - retainer
+[ danaronea daryon ] added to Redoran - retainer
+[ delyna mandas ] added to Redoran - Kinsman
+[ dramis maryon ] added to Redoran - Lawman
+[ durus marius ] added to Dark Brotherhood - Dark Brother
+[ elvas savel ] added to Redoran - Oathman
+[ falam hlaalu ] added to Hlaalu - Retainer
+[ faver seran ] added to Redoran - oathman
+[ galyn arvel ] added to Twin Lamps - Abolitionist
+[ gandela indoran ] added to Redoran - Retainer
+[ giras indaram ] added to Temple - Acolyte
+[ guldrise dralor ] TG at Dren Plantation -> Camonna Tong Chiller
+[ hakar the candle ] added to Redoran - Oathman
+[ idros givyn ] added to Redoran - Lawman
+[ ilmyna romoren ] added to Redoran - Oathman
+[ imperial archer ] added to Imperial Legion - Trooper
+[ inganar ] added to Dark Brotherhood - Journeyman
+[ irer nervion ] added to Temple - Acolyte
+[ irver fevur ] added to Redoran - Retainer
+[ ivela uvenim ] added to Redoran - Lawman
+[ ivrosa verethi ] TG at Dren Plantation -> Camonna Tong Chiller
+[ j'zhirr ] added to EEC - Agent
+[ jobasha ] added to Twin Lamps
+[ king hlaalu helseth ] added to Hlaalu - house father
+[ llarel llenim ] added to Redoran - Lawman
+[ malsa ules ] added to Redoran - Lawman
+[ mandur omalen ] added to Redoran - Retainer
+[ melvuli hlaalu ] added to Hlaalu - Retainer
+[ mendel eves ] added to Temple - Acolyte. Changed from Nord to Dunmer.
+[ movis darys ] added to Dark Brotherhood - Apprentice
+[ nathyne uvelas ] added to Redoran - Lawman
+[ nidara herandus ] added to Dark Brotherhood - Assassin
+[ nidryne redas ] added to Redoran - Lawman
+[ novor gorvas ] added to Redoran - Lawman
+[ okan_shei ] added to East Empire Company - Clerk
+[ processus vitellius ] added to Census and Excise Office - Taxman
+[ ralam vilas ] added to Redoran - Retainer
+[ raviso andalas ] added to Redoran - Retainer
+[ severa magia ] added to Dark Brotherhood - Master Assassin
+[ shazgob gra-luzgan ] added to East Empire Company - Underling
+[ sovisa adas ] added to Dark Brotherhood - Operator
+[ sterdecan ] added to Twin Lamps
+[ suvryn doves ] TG in Dren Plantation -> Camonna Tong Chiller
+[ tereri irethi ] added to Redoran - Lawman
+[ teryne hlaalu ] added to Hlaalu - Retainer
+[ thovasi alen ] added to Dark Brotherhood - Operator
+[ tidras deltis ] added to Redoran - Lawman
+[ tidros indaram ] added to Temple - Adept
+[ tsrazami ] added to Dark Brotherhood - apprentice
+[ ulms drathen ] added to Temple - Acolyte
+[ ulyne henim ] added to Temple - Initiate
+[ uradras sadalas ] added to Dark Brotherhood - Apprentice
+[ velsa orethi ] added to Redoran - Kinsman
+[ vendrela aravel ] added to Redoran - Kinsman. Changed class Commoner -> Noble.
+[ veresa salvani ] added to Redoran - Kinsman. Changed class Commoner -> Noble.
+[ vevul alver ] added to Redoran - Lawman.
+
+Changes made in the same vein as FAC, but not covered by FAC:
+
+NPCs in Ramoran Manor:
+
+[ Nalvyna Sarinith ] added to Redoran - Kinsman
+[ Raryn Daren ] added to Redoran - Kinsman

@@ -1,0 +1,110 @@
+LDM - Choices and Consequences
+v0.42 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Installation
+======================================================
+Requirements:
+- Either MCP with Allow Faction Leaving patch enabled, or OpenMW 0.46+
+- Patch for Purists v4+
+
+Load Order:
+- Patch for Purists.esm
+- Patch for Purists esps
+- LDM - Context Matters.esp
+- LDM - Choices & Consequences.esp
+- Hlaalu Rank Adjust, Roleplay Options for GHH, etc.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Gavrilo93
+LDM - Balmora Rumour Fix by Lucevar
+FMI - HulStop by PoodleSandwich
+FMI - Legion Dialogue by PoodleSandwich
+FMI - Note from the Archcanon Fix by PoodleSandwich
+FMI - Current Councilors by PoodleSandwich
+Quest Choices by Remiros (previously unreleased)
+Hentus Needs Pants Overhaul by Gavrilo93
+Ajira Deflowered by Gavrilo93
+Oath to St. Roris Instead by Gavrilo93
+NPC Faction Affiliator Corrector by Gavrilo93
+FMI - Athyn and Shardie by PoodleSandwich
+FMI - Gavrilo's Package by Gavrilo93
+Pacifist Options - When It Makes Sense by Gavrilo93
+Sexual Harassment Remover by JaceyS 
+-- 3 - Telvanni Bride, 5 - Curio - Hortator - Reducer, 9 - Curio - House Hlaalu - Expander, 11 - Nels Llendo - Expander
+Strange Man At Gindrala's House Overhaul by Gavrilo93 
+
+Partially Included Mods
+========================================================
+Hlaalu Rank Adjust by Ithilien87 - LDM includes only the NPC rank and "background" topic changes from Hlaalu Rank Adjust. Compatible if you load Hlaalu Rank Adjust after LDM - C&C for the full Hlaalu Rank Adjust changes.
+Sexual Harassment Remover by JaceyS 
+- I only included the quest changes/additions. SHR is incredibly modular, so you can pick and choose from any of the other SHR modules and load them alongside C&C, just don't use any of the modules that affect the Telvanni Bride quest, Crassius Curio, or Nels Llendo.
+
+Recommended Mods
+========================================================
+- MWSE Pickpocket by Mort - Makes pickpocketing actually functional, thus providing pacifist options in a LOT of different scenarios. 
+- Roleplay Options for Great House Hlaalu by Caeris & Luj1
+- Courtesy by Chantox
+- Nationalist Nerevarine by Gavrilo93
+- Religions Elaborated by Caeris - use the No Quest Changes version
+
+High Level Feature Changes in 0.42
+=======================================================
+-- Merged in four modules from JaceyS's Sexual Harassment Remover:
+---- Telvanni Bride: You now have three options. Get the slave from vanilla, convince a commoner in Tel Mora, or present yourself as his potential bride if you're female and a high ranking member of House Telvanni.
+---- Crassius Curio, Hlaalu Hortator: Crassius Curio will now ask you about the history between Nerevar and Vivec. You can skip the history lesson with a bribe. He'll still ask you for a kiss once the business has been decided, but you can turn him down and still become hortator.
+---- Crassius Curio, Hlaalu Sponsor: If your speechcraft is high enough [50], Crassius Curio will take 'no' for an answer when he asks you to strip.
+---- Nels Llendo: You can now tell him that asking for a kiss at swordpoint isn't exactly romantic.
+-- Merged in Gavrilo93's "Strange Man At Gindrala's House Overhaul" -- you can now complete it by getting him out of the house peacefully, and Gindrala will take her key back after the quest.
+LDM changes:
+-- Fjol will now force greet you if you get too close, instead of letting a potential victim saunter past.
+-- You can ask Nels for another kiss once he moves to the Halfway.
+
+Change List
+=================================================
+[Ald-ruhn: Strange Man At Gindrala Hleran's House]
+-- If you somehow manage to remove the dreamer from the house (eg a command humanoid spell), Gindrala Hleran will now accept this. Technically, it requires you to lead him to the outside of Gindrala's house, just yeeting him into ToddTest or something won't work.
+-- Gindrala Hleran will take her key back after the quest.
+
+[[ A1_SleeperDreamer02 ]]
+[new] 60: I led the strange man out from Gindrala Hleran's house.
+[new] 70: I told Gindrala Hleran that I led the strange man out of her house. She was grateful, and promised to tell everyone how kind and brave I'd been.
+
+
+[Main Quest: Hlaalu Hortator]
+-- Crassius will now ask you a question about Nerevar's history. You can answer it, or skip it by paying him.
+-- He'll still ask you for a kiss to seal the deal, but you can refuse.
+
+[[ b6_curioHort ]]
+[[ Hlaalu Hortator ]]
+
+[Main Quest: Telvanni Bride]
+-- JaceyS's Telvanni Bride module from SHR merged in.
+-- You now have three options:
+--- Reytha Dren, a commoner in Tel Mora
+--- Falura Llervu, the slave in Tel Aruhn [vanilla]
+--- Yourself, if you are a high ranking member of House Telvanni.
+
+[[ b3_ZainabBride ]]
+[[ something speciall ]]
+[[ travel together ]]
+[[ Telvanni bride ]]
+[[ greeting 7 ]]
+[[ counsel ]]
+
+[House Hlaalu: Hlaalu Sponsor]
+[[ greeting 5 ]]
+-- You now have the option to refuse to strip for Crassius but still gain him as a sponsor, if your speechcraft is high enough [50].
+
+[Bitter Coast: Fjol the Outlaw]
+-- Added a force greeting to Fjol. It doesn't make sense for him to let you casually walk past him.
+
+[Pelagiad, Nels Llendo]
+[kiss]
+-- SHR: You now have the option to tell Nels he's being a boor by asking for kisses at swordpoint.
+-- you can now ask Nels for another kiss when he moves to the Halfway Tavern, if you kissed him the first time round, and if your disposition is high enough. Otherwise he'll tell you he'd sooner kiss a guar ;)
+-- He won't kiss you if you're diseased, though.

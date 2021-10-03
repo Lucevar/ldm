@@ -1,0 +1,85 @@
+LDM - Choices and Consequences
+v0.1 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Gavrilo93
+LDM - Balmora Rumour Fix by Lucevar
+
+Changes in LDM - Choices and Consequences 1.0
+========================================================
+[Pelagiad: Beauty and the Bandit]
+-- You can now try to talk Maurrie out of it by telling her its a terrible idea. She'll refuse to see sense, but you can try. Provides a RP option for a "tactful, responsible adult" response, rather than "for the sake of love!" or "you're a blithering moron".
+
+[Balmora: Larrius Varro tells a little story]
+-- You will now no longer be told that Larrius Varro is looking for you until you're at least level 6. 
+-- You are now able to decline the quest. You can resume and finish it later by killing the Camonna Tong, even if you do refuse.
+
+[Seyda Neen: Death of a Taxman]
+	[[ someone in particular ]] [[ MV_DeadTaxman ]]
+-- It's now possible to start the quest by asking Thavere Vedrano about "someone in particular". Added a journal entry MV_DeadTaxman 5.
+
+	[[ murder of Processus Vitellius ]]
+-- Socucius Ergalla will now arrange for Processus' body to be buried after you report his death. Adds the sentence "I'll make arrangements to have his body retrieved and buried."
+-- Tweaked the writing in Thavere Vedrano's initial response to "murder of Processus Vitellius" slightly.
+-- Tweaked the writing in some of Socucius Ergalla's lines.
+-- It's now possible to report your suspicions about Foryn Gilnith to Socucius Ergalla before confronting him. Journal entry: MV_DeadTaxman 65
+-- If you report your suspicions first, a guard will appear after Foryn Gilnith confesses and help you execute him. This makes it possible for pacifist characters to complete the quest without killing.
+-- MV_DeadTaxman 100: tweaked the phrasing slightly to leave it ambiguous whether the player or the guard kills Gilnith.
+
+[Bloodmoon: An Island to the North]
+-- Mostly keeps Half11's implementation, except that rumours will stop when you get the final entry in the BM_Rumors journal ("I have arrived on the island of Solstheim...") instead of requiring you to start Falx Carius's first quest (BM_Morale 10).
+
+[Bloodmoon: The Patchwork Airship]
+-- script GAMA_moveLouis name changed to luce_ldm_moveLouis
+-- merged conflicting changes made by GAMA and Expansion Delay. 
+---- Louis Beauchamp will now only appear in Ald-ruhn once you've visited Solstheim and received the final journal entry for An Island To The North (BM_rumors 100). 
+---- Once his quest has been started (regardless of whether you accept or refuse) he will move inside, into the mages guild, instead of standing around in an ashstorm forever.
+
+[Tribunal: Dark Brotherhood Attacks]
+-- Dark Brotherhoods are now triggered by the PC being named Hlaalu Hortator (Journal B6_HlaaluHort >= 50), instead of when you are named Nerevarine by one tribe, as in Half11's Expansion Delay. 
+----- Helseth may or may not care about what a bunch of ragged Ashlanders think about an old prophecy but he DEFINITELY cares about you attempting to become war leader of his House. Being named Hortator makes you a viable political threat to him.
+-- When assassins attack, the message will now read "Something wakes you up." instead of "You are awakened by a loud noise."
+----- Assassins are meant to be stealthy.
+-- Asciene Rane will refuse to teleport you to Mournhold if you're diseased. Get cured first. Will you ever see her response to you having Corprus? Probably not, since the DB attacks now trigger long after the Second Trial comes to pass. But it's included anyway for those taking the back door route or using a mod that inflicts corprus on you.
+
+========= Merged in: l1lartur0's GAMA - Go Away Move Along ==========
+https://www.nexusmods.com/morrowind/mods/46797
+
+NPCs involved in misc quests will no longer stand around forever. After their quests are complete they will now be disabled or moved to appropriate locations. See Docs/GAMA Readme.txt for full details.
+
+Noteable features:
+-- Find out what happens to Maurrie and Nelos!
+-- Many misc quests will now properly close if you decline them or finish them in non-standard ways
+-- Adds option to decline several quests
+-- Adds supporting reactions to several quests
+
+========= Merged in: Half11's Expansion Delay ===========
+https://www.nexusmods.com/morrowind/mods/47588
+
+-- Attacks are now triggered by progress in the main quest (in LDM, by becoming Hlaalu Hortator or completing the MQ via the back door).
+-- Assassins will now stop attacking as soon as you tell a guard about the attacks and they inform you that the assassins are likely to be Dark Brotherhood. You no longer have to jaunt over to Ebonheart to stop the attacks.
+-- Rumours about Solstheim will only start showing up after level 6.
+-- Only one random guard has his son sent to Solstheim.
+-- Only Agents, Scouts, and people in Khuul will talk about Solstheim now.
+-- Solstheim topic will no longer appear for NoLored NPCs
+-- Louis Beauchamp won't show up until after the Bloodmoon main quest has been started.
+
+LDM changes: see main changelog for v1.0
+
+========= Merged in: Gavrilo93's Quarantined Vvardenfell ===========
+https://www.nexusmods.com/morrowind/mods/47335
+
+Asciene Rane will now refuse to teleport you to Mournhold if you're afflicted with a blight or common disease, and she CERTAINLY won't teleport you if you have Corprus. Get cured before travelling!
+
+LDM Changes: tweaked phrasing for some of the dialogue.
+
+========== Merged in: LDM - Balmora Rumour Fix =====================
+https://www.nexusmods.com/morrowind/mods/47455
+
+-- LDM - Choices and Consequences does not include the Balmora general rumor changes: those are now handled in Patch for Purists v4.0+
+-- LDM - Choices and Consequences DOES include the changes to the Larrius Varro rumors, the Twin Lamps rumor, and the option to turn down the bloodbath quest.

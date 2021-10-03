@@ -1,0 +1,89 @@
+LDM - Choices and Consequences
+v0.44 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Installation
+======================================================
+Requirements:
+- Either MCP with Allow Faction Leaving patch enabled, or OpenMW 0.46+
+- Patch for Purists v4+
+
+Load Order:
+- Patch for Purists.esm
+- Patch for Purists esps
+- Django's Dialogue.esp
+- LDM - Context Matters.esp
+- LDM - Choices & Consequences.esp
+- Hlaalu Rank Adjust, Roleplay Options for GHH, etc.
+- Quest mods in general, especially faction expansion mods. If there's a conflict, you'll generally want them to overwrite C&C because they might have follow-on content.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Gavrilo93
+LDM - Balmora Rumour Fix by Lucevar
+FMI - HulStop by PoodleSandwich
+FMI - Legion Dialogue by PoodleSandwich
+FMI - Note from the Archcanon Fix by PoodleSandwich
+FMI - Current Councilors by PoodleSandwich
+Quest Choices by Remiros (previously unreleased)
+Hentus Needs Pants Overhaul by Gavrilo93
+Ajira Deflowered by Gavrilo93
+Oath to St. Roris Instead by Gavrilo93
+NPC Faction Affiliator Corrector by Gavrilo93
+FMI - Athyn and Shardie by PoodleSandwich
+FMI - Gavrilo's Package by Gavrilo93
+Pacifist Options - When It Makes Sense by Gavrilo93
+Sexual Harassment Remover by JaceyS 
+-- 3 - Telvanni Bride, 5 - Curio - Hortator - Reducer, 9 - Curio - House Hlaalu - Expander, 11 - Nels Llendo - Expander
+Strange Man At Gindrala's House Overhaul by Gavrilo93 
+The G93 Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition by Gavrilo93
+Libertarian Magical Services by Gavrilo93
+
+Partially Included Mods
+========================================================
+Hlaalu Rank Adjust by Ithilien87 - LDM includes only the NPC rank and "background" topic changes from Hlaalu Rank Adjust. Compatible if you load Hlaalu Rank Adjust after LDM - C&C for the full Hlaalu Rank Adjust changes.
+Sexual Harassment Remover by JaceyS 
+- I only included the quest changes/additions. SHR is incredibly modular, so you can pick and choose from any of the other SHR modules and load them alongside C&C, just don't use any of the modules that affect the Telvanni Bride quest, Crassius Curio, or Nels Llendo.
+
+Mods that Conflict
+=======================================================
+- Anything on the "included mods" list
+
+Recommended Mods
+========================================================
+- MWSE Pickpocket by Mort - Makes pickpocketing actually functional, thus providing pacifist options in a LOT of different scenarios. 
+- Roleplay Options for Great House Hlaalu by Caeris & Luj1
+- Courtesy by Chantox
+- Nationalist Nerevarine by Gavrilo93
+- Religions Elaborated by Caeris - use the No Quest Changes version
+
+High Level Feature Changes in 0.44
+=======================================================
+=============== Libertarian Magical Services by Gavrilo93 =============
+https://www.nexusmods.com/morrowind/mods/46301
+
+-- 8 new NPCs who will appear after the House Telvanni quest Mages Guild Monopoly is completed successfully (HT_Monopoly 100). 6 are Telvanni, two are independent.
+-- With a lack of regulation comes, well, a lack of regulation. Not all the new NPCs are as good as their word.
+
+New NPCS:
+Areach - Enchanter service - Gnisis, Madach Tradehouse
+S'Ashi - thief - Khuul, Thongar's Tradehouse
+Edrose Savos - Healer Service - Maar Gan
+Falare Dalaril - Alchemist service - Ald Velothi
+Ilverel Llondas - sorceror service - Ald-ruhn, Ald Skar Inn
+Sevareni Llondas - nightblade service - Ald-ruhn, Ald Skar Inn
+Therele Llalvi - mage service - Molag Mar
+Urves Sedrith - battlemage service - Maar Gan, Andus Tradehouse 
+
+Changes in LDM:
+-- NPC names tweaked slightly to sound more Dunmeri.
+-- The new NPCs will comment on the Mages Guild monopoly and what brings them to their new residence.
+-- Some vanilla NPCs will comment on the Mages Guild monopoly and give their thoughts on the repeal.
+-- More generic commentary on the repeal and what NPCs think of it - faction, class, location based.
+-- Option to refuse Ranis's "unsanctioned training" quest if the monopoly has been repealed. You can now tell her she doesn't have the authority to do that.
+-- Only-He-Stands-There will refuse to stop offering training if the monopoly has been repealed (with the very reasonable argument that YOU helped pass that law). If you still want to complete Ranis's quest you'll have to kill him. Ranis will be baffled but say there may be hope for you yet.
+-- If the player previously persuaded Only-He-Stands-There to stop offering training for Ranis, he'll start offering training again after the monopoly is repealed. But not to the player, 'cuz you were a dick. ie his service refusal will change.
+

@@ -1,0 +1,114 @@
+LDM - Choices and Consequences
+v0.43 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Installation
+======================================================
+Requirements:
+- Either MCP with Allow Faction Leaving patch enabled, or OpenMW 0.46+
+- Patch for Purists v4+
+
+Load Order:
+- Patch for Purists.esm
+- Patch for Purists esps
+- LDM - Context Matters.esp
+- LDM - Choices & Consequences.esp
+- Hlaalu Rank Adjust, Roleplay Options for GHH, etc.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Gavrilo93
+LDM - Balmora Rumour Fix by Lucevar
+FMI - HulStop by PoodleSandwich
+FMI - Legion Dialogue by PoodleSandwich
+FMI - Note from the Archcanon Fix by PoodleSandwich
+FMI - Current Councilors by PoodleSandwich
+Quest Choices by Remiros (previously unreleased)
+Hentus Needs Pants Overhaul by Gavrilo93
+Ajira Deflowered by Gavrilo93
+Oath to St. Roris Instead by Gavrilo93
+NPC Faction Affiliator Corrector by Gavrilo93
+FMI - Athyn and Shardie by PoodleSandwich
+FMI - Gavrilo's Package by Gavrilo93
+Pacifist Options - When It Makes Sense by Gavrilo93
+Sexual Harassment Remover by JaceyS 
+-- 3 - Telvanni Bride, 5 - Curio - Hortator - Reducer, 9 - Curio - House Hlaalu - Expander, 11 - Nels Llendo - Expander
+Strange Man At Gindrala's House Overhaul by Gavrilo93 
+The G93 Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition by Gavrilo93
+
+Partially Included Mods
+========================================================
+Hlaalu Rank Adjust by Ithilien87 - LDM includes only the NPC rank and "background" topic changes from Hlaalu Rank Adjust. Compatible if you load Hlaalu Rank Adjust after LDM - C&C for the full Hlaalu Rank Adjust changes.
+Sexual Harassment Remover by JaceyS 
+- I only included the quest changes/additions. SHR is incredibly modular, so you can pick and choose from any of the other SHR modules and load them alongside C&C, just don't use any of the modules that affect the Telvanni Bride quest, Crassius Curio, or Nels Llendo.
+
+Recommended Mods
+========================================================
+- MWSE Pickpocket by Mort - Makes pickpocketing actually functional, thus providing pacifist options in a LOT of different scenarios. 
+- Roleplay Options for Great House Hlaalu by Caeris & Luj1
+- Courtesy by Chantox
+- Nationalist Nerevarine by Gavrilo93
+- Religions Elaborated by Caeris - use the No Quest Changes version
+
+High Level Feature Changes in 0.43
+=======================================================
+-- You can now build both the trader and the smithy at Raven Rock, if you pay for the construction yourself.
+-- Fjol will now have his weapons and armor removed when he gets sent to jail.
+-- Lugrub gro-Ogdum will no longer force greet you if he doesn't detect you.
+-- Added options to leave peacefully (if you're not carrying the axe) or attempt to run past him without fighting so you can report to Darius (if you are)
+-- Darius will no longer mention Lugrub having died honorably in the service of the Empire if its known that Mansilamat was murdered.
+-- If you kill Lugrub without telling Darius about the murder first, and then turn up without proper evidence, he'll have you arrested for murder. If you're in the legion, you'll be expelled.
+-- If you bring evidence to him after being arrested he'll have your name cleared, tho.
+-- Widow Vabdas will acknowledge if you got yourself arrested in the course of helping her.
+-- Darius's quest-related greetings are now filtered for Expelled = 0
+
+
+Change List
+=================================================
+[Raven Rock: Setting Up Shop]
+-- You now have the option to build both the smithy and the trader's outpost at Raven Rock. You'll have to pay the cost from your own pocket, though, and the building will take a bit longer.
+
+Scripts edited: 
+ColonyBaro
+ColonyDock
+ColonyServSmith
+ColonyServSmithConst
+ColonyServSmithDisable
+ColonyServTimer
+ColonyServTrader
+ColonyServTraderConst
+ColonyServTraderDisable
+luce_ldm_ColonyBothServTimer
+
+[[ CO_4 ]]
+[new] 45: It was my decision that both the trader's outpost and the smithy should be built. Construction should begin shortly, but I need to inform Carnius of the decision.
+[new] 75: It was my decision that both the trader's outpost and the smithy should be built. Construction should begin shortly, and I should see Carnius again when it's finished in about a week.
+[new] 95: Construction on the smithy and the trader's outpost should be nearly complete.
+[new] 115: I've told Carnius that the work on the smithy and the trader's outpost is done.
+
+[[ decision ]]
+-- extra choice 14 "We should build both" added to Falco and Carnius, with supporting dialogue responses.
+
+[[ greeting 1 ]]
+-- necessary greetings edited or added to allow quest progression with both buildings built.
+
+[[ assignment ]]
+-- edited to allow quest progression if both buildings are built.
+
+[Bitter Coast: Fjol the Outlaw]
+-- Fjol will now have his weapons and armor removed when he's moved to jail.
+
+[Imperial Legion: Land Deed]
+-- Added a getDetected check to lugrubScript. He'll no longer force greet you if he can't see you.
+-- Added options to leave peacefully (if you're not carrying the axe) or attempt to run past him without fighting so you can report to Darius (if you are)
+-- Darius will no longer mention Lugrub having died honorably in the service of the Empire if its known that Mansilamat was murdered.
+-- If you kill Lugrub without telling Darius about the murder first, and then turn up without proper evidence, he'll have you arrested for murder. If you're in the legion, you'll be expelled.
+-- If you bring evidence to him after being arrested he'll have your name cleared, tho.
+-- Widow Vabdas will acknowledge if you got yourself arrested in the course of helping her.
+
+[[ luce_ldm_IL_lugrubMurder ]]
+[new] 10: Darius had me arrested for the murder of Lugrub gro-Ogdum.
+[new] 20: I showed Darius Lugrub's axe and cleared my name.

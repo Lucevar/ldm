@@ -1,0 +1,69 @@
+LDM - Choices and Consequences
+v0.2 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Gavrilo93
+LDM - Balmora Rumour Fix by Lucevar
+FMI - HulStop by PoodleSandwich
+FMI - Legion Dialogue by PoodleSandwich
+FMI - Note from the Archcanon Fix by PoodleSandwich
+FMI - Current Councilors by PoodleSandwich
+
+Changes in LDM - Choices and Consequences 0.2
+========================================================
+Scripts: stopscript command added to the global scripts added by GAMA.
+
+[Imperial Legion: Expelled]
+-- If you're expelled from the Legion, you'll receive this greeting (vanilla): 
+	By your actions, you have lost the trust of the %Faction. Until you make amends, expect no favor from me.
+-- LDM adds an extra line which you'll get if you have been permanently expelled and can no longer make amends:
+	By your actions, you have lost the trust of the %Faction. Expect no favor from me.
+
+[Pelagiad: Ahnassi, A Special Friend]
+-- Removes the gender restrictions on Ahnassi's romance.
+-- Restores the 50 agility requirement
+
+[Balmora: Larrius Varro Tells A Little Story]
+-- If the player carries out a bloodbath for Larrius Varro, the two patrons on the roof of the Council Club will relocate to the Eight Plates (move script luce_ldm_bloodbathAftermath) triggered by Larrius Varro dialogue in [[work]] topic. 
+-- Added unique greetings for the two patrons before/after the move to the Eight Plates.
+-- Reactions to the massacre:
+----- Any Camonna Tong left in Balmora will comment that it's an outrage.
+----- Dulnea Ralaal, the proprietor of the Eight Plates, will comment that it's been good for business for her
+----- Argonians and Khajiit will comment that they feel safer now.
+----- If Banor Seran is still alive, he'll talk about how his business is ruined.
+-- Hul's wander radius is set to 1000 (half its vanilla value) by default to prevent her from wandering too close to the Council Club.
+-- Hul's wander radius will be increased back to (slightly more than) its vanilla value after Larrius Varro Tells A Little Story has been completed and the Camonna Tong thugs are either dead or moved to the Eight Plates.
+-- Trigger for little secret dialogue changed to reputation >= 6 instead of level >= 6.
+-- added journal town_balmora < 25 filter to [[council club]] topic, to reduce topic clutter.
+
+========= Merged in: PoodleSandwich's Legion Dialogue ========
+https://www.nexusmods.com/morrowind/mods/47318
+
+-- [[imperial legion]] LDM slightly tweaks FMI's permanently expelled line, and enables it for all members of the Legion, not just Darius.
+-- Keeps FMI's greetings changes: "You're out of uniform" filtered for expelled = 0, adds rank-based greetings to troopers.
+-- [[Eggmine]] topic: Keeps FMI's new lines where the legion acknowledges that they're the ones closing the mine. Doesn't change Vatollia Apo's filtering, as PfP 4.0+ now handles this.
+-- Doesn't keep FMI's voice changes, as PfP 4+ now handles this.
+
+
+========= Merged in: PoodleSandwich's FMI - HulStop ==========
+https://www.nexusmods.com/morrowind/mods/47121
+
+The Camonna Tong are brutal racist thugs, yet in vanilla Hul, a free Argonian, seems to feel perfectly safe wandering around near them. This mod restricts her AIWander radius so that she doesn't walk too close to the Council Club.
+
+Once the Camonna Tong are dead her AIWander radius is increased and she's free to enjoy the beautiful view again.
+
+========== Merged in: PoodleSandwich's FMI - Note from the Archcanon Fix ==========
+https://www.nexusmods.com/morrowind/mods/45778
+(sort of)
+
+-- LDM uses PfP - Book Notes.esp changes as a base, then changes any reference to "his", "himself", etc to "their", "themself", etc instead of creating separate, gendered versions. 
+
+========== Merged in: PoodleSandwich's FMI - Current Councilors ==========
+https://www.nexusmods.com/morrowind/mods/47342
+
+-- LDM includes Current Councilors unedited and in its entirety. When asked about Redoran Councilors, or when giving the quest about Ondres Nerano's slanders, Athyn Sarethi will respond correctly depending on whether or not Bolvyn Venim is still alive.

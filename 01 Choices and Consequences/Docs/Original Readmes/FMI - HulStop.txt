@@ -1,0 +1,23 @@
+Description
+
+The Camonna Tong are the native crime syndicate of Vvardenfell. They are known for being extremely xenophobic and racist, especially towards Khajiit and Argonians who they view as being unfit for anything but slavery.
+
+And yet in the vanilla game, Hul, a free Argonian, hangs around outside their Council Club in Balmora and often walks carelessly onto their roof while neither of the Camonna Tong thugs bat an eyelid.
+
+I believe this is inconsistent with lore (as there is no lore I know of that explains why she would go up there, but please tell me if you have a reference) and unconducive to world-building.
+
+So this mod fixes it so she will not venture too close to the Council Club while the Camonna Tong members stood outside are alive. 
+
+It changes her ai wander radius from 2000 to 1700 and resets it to the vanilla 2000 once the thugs are dead.
+
+Compatibility
+
+The problem is even more noticeable with Animated Morrowind II as it adds a new Camonna Tong NPC outside, spinning a knife and spitting on the ground. This mod is compatible with Animated Morrowind II as long as it loads before Animated Morrowind II.
+
+This mod does not reference Hul's position so it should be compatible with things that move her but likely won't work with anything that changes her stats, clothes or face.
+
+The file requires the expansions, largely because I couldn't be bothered to remove the dependencies. If you really need a version that works with just Morrowind.esm, let me know. I don't THINK it actually needs any of the newer scripting functions.
+
+Due to a bug in OpenMW, this mod does not yet work 100% with OpenMW. However, I have reported the issue here. So hopefully it will be resolved in future.
+
+It will still have some effect in OpenMW, it just might stop working if you rest/wait near to Hul. If you do, there is a chance that she will move off her usual path. This is an issue in OpenMW regardless of if you use this mod or not (at least on the 28th of November 2019).

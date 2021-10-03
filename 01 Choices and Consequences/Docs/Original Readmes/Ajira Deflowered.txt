@@ -1,0 +1,12 @@
+========== Gavrilo93's Ajira Deflowered ================
+https://www.nexusmods.com/morrowind/mods/47585
+
+Do you remember Ajira's quest﻿, in which she asks you to acquire four flowers? Probably she is not a very clever kitty, as she already has a restocking supply of two of those flowers (Willow Anther, Heather) in her inventory.﻿
+
+This mod fixes that, and removes those flowers from her inventory. For the sake of balance, they are replaced with new restocking ingredients: Bloat and Netch Leather. I just chose two ingredients that are relatively hard to acquire from other merchants, but still believable for a low-ranking member of the Mages' Guild.
+
+Hang on, hang on, hang on! This could have been handled better, like rewriting the whole quest of Ajira to ask for different ingredients, as well as rewriting the notes that we see later. Or maybe some dialogue explaining that the flowers are the property of the Mages' Guild, and she is in charge for selling them, but she is not allowed to use them herself.
+
+But you go right ahead, if you want.
+
+The mod is clean, and bug-free. (It literally only modifies Ajira's inventory.) It is compatible with everything that does not touch the Ajira NPC herself, including OpenMW, ClosedMW, LockedMW, ShutMW, JammedMW, SlidingMW, AutomaticMW, BlockedMW and StuckMW.

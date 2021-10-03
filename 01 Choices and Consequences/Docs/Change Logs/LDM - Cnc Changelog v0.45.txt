@@ -1,0 +1,106 @@
+LDM - Choices and Consequences
+v0.45 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Installation
+======================================================
+Requirements:
+- Either MCP with Allow Faction Leaving patch enabled, or OpenMW 0.46+
+- Patch for Purists v4+
+
+Load Order:
+- Patch for Purists.esm
+- Patch for Purists esps
+- Django's Dialogue.esp
+- LDM - Context Matters.esp
+- LDM - Choices & Consequences.esp
+- Hlaalu Rank Adjust, Roleplay Options for GHH, etc.
+- Quest mods in general, especially faction expansion mods. If there's a conflict, you'll generally want them to overwrite C&C because they might have follow-on content.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Gavrilo93
+LDM - Balmora Rumour Fix by Lucevar
+FMI - HulStop by PoodleSandwich
+FMI - Legion Dialogue by PoodleSandwich
+FMI - Note from the Archcanon Fix by PoodleSandwich
+FMI - Current Councilors by PoodleSandwich
+Quest Choices by Remiros (previously unreleased)
+Hentus Needs Pants Overhaul by Gavrilo93
+Ajira Deflowered by Gavrilo93
+Oath to St. Roris Instead by Gavrilo93
+NPC Faction Affiliator Corrector by Gavrilo93
+FMI - Athyn and Shardie by PoodleSandwich
+FMI - Gavrilo's Package by Gavrilo93
+Pacifist Options - When It Makes Sense by Gavrilo93
+Sexual Harassment Remover by JaceyS 
+-- 3 - Telvanni Bride, 5 - Curio - Hortator - Reducer, 9 - Curio - House Hlaalu - Expander, 11 - Nels Llendo - Expander
+Strange Man At Gindrala's House Overhaul by Gavrilo93 
+The G93 Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition by Gavrilo93
+Libertarian Magical Services by Gavrilo93
+Duel of Honor - Improve the Chances by Gavrilo93  
+Blight at the Hairat-Vassamsi Mine by Gavrilo93
+Redoran Freeloaders by Gavrilo93
+
+Partially Included Mods
+========================================================
+Hlaalu Rank Adjust by Ithilien87 - LDM includes only the NPC rank and "background" topic changes from Hlaalu Rank Adjust. Compatible if you load Hlaalu Rank Adjust after LDM - C&C for the full Hlaalu Rank Adjust changes.
+Sexual Harassment Remover by JaceyS 
+- I only included the quest changes/additions. SHR is incredibly modular, so you can pick and choose from any of the other SHR modules and load them alongside C&C, just don't use any of the modules that affect the Telvanni Bride quest, Crassius Curio, or Nels Llendo.
+
+Mods that Conflict
+=======================================================
+- Anything on the "included mods" list
+
+Recommended Mods
+========================================================
+- MWSE Pickpocket by Mort - Makes pickpocketing actually functional, thus providing pacifist options in a LOT of different scenarios. 
+- Roleplay Options for Great House Hlaalu by Caeris & Luj1
+- Courtesy by Chantox
+- Nationalist Nerevarine by Gavrilo93
+- Religions Elaborated by Caeris - use the No Quest Changes version
+
+High Level Feature Changes in 0.45
+=======================================================
+-- Gavrilo93's Redoran Freeloaders: Redoran now sleep for free at The Flowers of Gold, per vanilla dialogue. This is now filtered for PC Expelled = 0 too.
+-- Gavrilo93's Blight at the Hairat-Vassamsi Mine: A warrior called Raynila Neryon is memorialised in Maar Gan. She fell while attempting to cleanse the Hairat-Vassamsi egg mine of blight. You can now complete her quest. The villagers will thank you, and miners will return to the mine.
+-- Gavrilo93's Duel of Honor - Improve the Chances: Gives you the option to give Rothis Nethan a glass netch dagger to further improve his chances of winning the duel, since his Hlaalu opponent usually wins if he just has the standard potions of healing. 
+--- Also gives you the option to give him quality or exclusive potions instead of standard ones. You only need to give him five quality/exclusive potions instead of ten.
+
+============ Redoran Freeloaders ==============================
+https://www.nexusmods.com/morrowind/mods/47321
+
+-- Redoran sleep for free at the Flowers of Gold, per vanilla dialogue.
+
+LDM changes:
+-- minor dialogue tweaks
+-- filtered for PC Expelled = 0, only Redoran in good standing with the House get to sleep for free.
+
+============= Gavrilo93's Blight at the Hairat-Vassamsi Mine ==============
+https://www.nexusmods.com/morrowind/mods/47589
+
+-- Gives you the opportunity to complete Ravila's quest to cure the blighted kwama queen at the Hairat-Vassamsi mine. You don't have to be a member of House Redoran.
+
+Changes in LDM:
+-- some minor dialogue tweaks
+-- Bolyrys -> Bolrys
+
+=============== Gavrilo93's Duel of Honor - Improve the Chances  =============
+https://www.nexusmods.com/morrowind/mods/47393
+
+You can now improve Rothis Nethan's chances of winning the Duel of Honor by providing him with a good weapon - and receive word about a necromancer who should be killed at the same time.
+
+Changes in LDM:
+-- adds the option to give him quality or exclusive potions
+
+[[ glass netch dagger ]]
+-- adds a note about where to find a glass netch dagger, and points you in the direction of a necromancer (the ex-MG sorceress Anirne) as a bonus. Necromancer-killing is a wholesome Redoran-approved activity, kids.
+
+[[ duel ]]
+-- you now have the option to give him the vanilla 10 standard potions of healing, or 5 exquisite or quality potions instead.
+
+[[ greeting 5 ]]
+-- adds a failsafe journal entry in case the script fails to trigger. 

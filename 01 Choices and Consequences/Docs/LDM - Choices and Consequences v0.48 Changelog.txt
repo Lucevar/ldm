@@ -1,0 +1,123 @@
+LDM - Choices and Consequences
+v0.48 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Installation
+======================================================
+Requirements:
+- Either MCP with Allow Faction Leaving patch enabled, or OpenMW 0.46+
+- Patch for Purists v4+
+
+Load Order:
+- Patch for Purists.esm
+- Patch for Purists esps
+- Django's Dialogue.esp
+- Improved Inns Expanded.esp
+- LDM - Context Matters.esp
+- LDM - Choices & Consequences.esp
+- Hlaalu Rank Adjust, Roleplay Options for GHH, etc.
+- Quest mods in general, especially faction expansion mods. If there's a conflict, you'll generally want them to overwrite C&C because they might have follow-on content.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Alice
+LDM - Balmora Rumour Fix by Lucevar
+FMI - HulStop by PoodleSandwich
+FMI - Legion Dialogue by PoodleSandwich
+FMI - Note from the Archcanon Fix by PoodleSandwich
+FMI - Current Councilors by PoodleSandwich
+Quest Choices by Remiros (previously unreleased)
+Hentus Needs Pants Overhaul by Alice
+Ajira Deflowered by Alice
+Oath to St. Roris Instead by Alice
+NPC Faction Affiliator Corrector by Alice
+FMI - Athyn and Shardie by PoodleSandwich
+FMI - Alice's Package by Alice
+Pacifist Options - When It Makes Sense by Alice
+Sexual Harassment Remover by JaceyS 
+-- 3 - Telvanni Bride, 5 - Curio - Hortator - Reducer, 9 - Curio - House Hlaalu - Expander, 11 - Nels Llendo - Expander
+Strange Man At Gindrala's House Overhaul by Alice 
+The G93 Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition by Alice
+Libertarian Magical Services by Alice
+Duel of Honor - Improve the Chances by Alice  
+Blight at the Hairat-Vassamsi Mine by Alice
+Redoran Freeloaders by Alice
+Fargoth in Distress by Alice (inspired by rather than included)
+
+Partially Included Mods
+========================================================
+Hlaalu Rank Adjust by Ithilien87 - LDM includes only the NPC rank and "background" topic changes from Hlaalu Rank Adjust. Compatible if you load Hlaalu Rank Adjust after LDM - C&C for the full Hlaalu Rank Adjust changes.
+Sexual Harassment Remover by JaceyS 
+- I only included the quest changes/additions. SHR is incredibly modular, so you can pick and choose from any of the other SHR modules and load them alongside C&C, just don't use any of the modules that affect the Telvanni Bride quest, Crassius Curio, or Nels Llendo.
+
+Compatibility
+=======================================================
+-- Django's Dialogue should load BEFORE LDM - Context Matters
+-- Improved Inns Expanded should load BEFORE LDM - Choices and Consequences
+-- Hlaalu Rank Adjust should load AFTER LDM - Choices and Consequences
+
+Mods that Conflict
+=======================================================
+- Anything on the "included mods" list
+- Andrano Ancestral Tomb Remastered - GAMA. Situational conflict where Nelos Onmar may become temporarily unavailable, thus leading to a dead end in the AATR quest. It is possible to still complete the Andrano quests via other methods.
+
+Recommended Mods
+========================================================
+- MWSE Pickpocket and Stealth Improved by Mort - Makes pickpocketing and stealth actually functional, thus providing pacifist options in a LOT of different scenarios. 
+- Roleplay Options for Great House Hlaalu by Caeris & Luj1
+- Courtesy by Chantox
+- Nationalist Nerevarine by Alice
+- Religions Elaborated by Caeris - use the No Quest Changes version
+
+High Level Feature Changes in 0.48
+=======================================================
+* Made Larrius Varro rumors less annoying. The quest will now only appear in your quest list if you've actually started it.
+* Hisin Deep-Raed will now move to Thirsk instead of an exterior cell once you cure him, for TOTSP compatibility.
+* Hisin will get some armor along the way to his new home.  
+* Added new greetings to Falanu and Drerel Indaren during and after Divided by Nix Hounds, since the generic greetings don't make sense mid-quest and were simply disappointing post-quest.  
+* They'll also be a bit more grateful: you'll get a disposition boost with them now. 
+* Hrisskar's corpse is now activatable  
+* Added a more explicit pointer to Hla Oad in the journal entry you get when you find Hrisskar's corpse
+* Added Khajiiti versions of the Hla Oad dialogue talking about Hrisskar. 
+* You now have the option of curing Din with a potion instead of a spell or by taking him to Gnisis Temple.
+* Din will now move to Fort Darius instead of Madach Tradehouse after the quest (unless you take him to the Temple), for better compatibility with HOTV and BCOM. 
+* Some tweaks to dialogue in the extended Beauty and the Bandit quest. 
+
+===================== Fargoth's Hiding Place ===================
+* Hrisskar dead journal entry: pointer to Hla Oad to find out what happened
+* Hrisskar's corpse is now activatable  
+* Added Khajiit versions of the dialogue lines about Hrisskar in Hla Oad.  
+* Added nolore filter to Hrisskar Flat-Foot topic entries.
+
+==================== Town_Balmora: Larrius Varro Tells A Little Story ================
+Makes the Larrius Varro rumors slightly less annoying:
+* Town_Balmora 1: Checked finished so that it doesn't open the quest in the quest list when you get this rumor.
+* Town_Balmora 5: Checked finished so that it doesn't open the quest in the quest list when you get this rumor.
+* Town_Balmora 10: Checked restart so that it opens the quest if you got one of the other rumors before getting this entry.
+* Town_Balmora 15: Checked restart so that it opens the quest if you got one of the other rumors before getting this entry.
+You can still do the quest, marking it as "Finished" only makes it so that it doesn't clutter your quest list.
+
+==================== Ashlands: Divided by Nix Hounds ===================
+* [Greeting 5] Added a greeting to Drerel Indaren when he is following you, to prevent him giving you generic low/high disposition greetings despite having asked you for help
+* [Greeting 1] Edited Drerel's greeting when Falanu is dead slightly: it is now less abrupt
+* [Greeting 1] Added greetings to Falanu and Drerel once they move to the Ald Skar Inn that acknowledge that you helped them. Different lines for disposition over/under 30.  
+* [Greeting 5] Added greetings to Drerel and Falanu after the quest is complete but before they move to Ald Skar.
+* Drerel and Falanu will be less ungrateful now: you'll get a disposition boost for rescuing them.
+
+==================== West Gash: The Paralysed Barbarian ====================
+* Hisin Deep-Raed will now move to Thirsk instead of an outside cell, for compatibility with TOTSP.  
+* Made sure Hisin Deep-Raed moves along after his quest is complete
+* Gave Hisin some extra armor when he moves to Thirsk
+* Changed choices in enchant topic to say "cure this disease" rather than "cure your paralysation", as the vanilla dialogue suggests that you need to find him a cure paralysation potion instead of the correct cure disease potion.
+
+=================== The Man Who Spoke To Slaughterfish ===============
+* Added option to cure Din with a potion 
+* Changed where Din goes after curing him in the wilderness. He will now move to Fort Darius instead of Madach's Tradehouse. This will ensure compatibility with HOTV and BCOM.
+
+Topics: [muddled], [cast that spell]
+
+=================== Beauty and the Bandit ====================
+* Edited some dialogue to bring action indicators more in line with vanilla style, ie *sob*, *hic* instead of <sob>, <hic>
