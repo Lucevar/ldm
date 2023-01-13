@@ -1,0 +1,274 @@
+LDM - Context Matters
+by Lucevar
+v1.6
+
+This mod is an attempt to fix one of the largest issues with Morrowind's dialogue: because the developers didn't have years to sit there and write dialogue to cover every possible scenario, there are places in the vanilla game where NPCs will talk about themselves in third person, casually incriminate themselves, swear by gods they don't believe in, or give replies completely unfitting for their status in life - uneducated paupers shouldn't give the same replies as savants!
+
+Context Matters attempts to improve this situation by editing filters or adding new lines of dialogue more in keeping with the NPC's faith, class, race, faction, physical location, as well as quest completion status. 
+
+The mod is perfectly useable as is, but because of the scale of the game should be considered as-yet incomplete and very likely to be updated in the future as I find more jarring dialogue. As such, I will very happily take suggestions - contact me in the comments, in PM, or on Discord.
+
+
+FEATURES INCLUDE:
+Abolitionists - Plantation owners now have disapproving responses when asked about abolitionists. Originally from LDM - Abolitionists﻿
+
+Ashlanders - Now no longer curse vampires in the name of Almsivi. Wise Women now have extra dialogue about vampires. 
+
+Balmora - Extra class and faction based responses to the 'Balmora', 'Bacola Closcius', and 'South Wall' topics. Better 'little advice' filtering. If you haven't started the main quest (eg if you're using an alternate start mod), asking about Caius Cosades at the South Wall will no longer trigger the main quest journal entries unless you have the Package for Caius in your inventory..
+
+Crassius Curio - This mod﻿ is now included in Context Matters. Crassius Curio now has a variety of flirtatious voice lines if the player is naked. 
+
+Gnisis - Adds class/race/faction/quest responses to a number of topics, including greetings, 'Gnisis', 'Hetman Abelmawia', 'Widow Vabdas', 'Optio Bologra'.
+
+Ebonheart - Agning will no longer talk about himself in third person.
+
+Khuul - Location-based dialogue tweaks: NPCs in Thongar's Tradehouse will no longer respond as though they're standing on the docks instead.
+
+my trade - Odral Helvi will no longer tell you that he's a monk trained in Khajiiti martial arts, because that makes no sense. He now informs you that he oversees House Hlaalu's affairs in Caldera instead.
+
+Seyda Neen - Eldafire will now be less ungrateful if you clear out Addamasartus. Asking Elone the Scout about Balmora will no longer trigger a main-quest journal update if you haven't already started the main quest (eg if you're using an alternate start mod). Some little advice responses which previously were filtered to occur in Seyda Neen but were never seen because no NPCs of the appropriate class exist there will now trigger elsewhere as well.
+
+Telvanni - Adds extra variety to vampire greetings.
+
+Thieves - Refilters the little advice topic for thieves, so that they save their most incriminating advice for fellow members of the Thieves Guild. Dialogue in Balmora which previously directed the player to seek out the Thieves Guild regardless of identity will now only be given to players with a bounty.
+
+Vampires - Context Matters includes LDM - Vampire Talk﻿, adding more variety to vampire greetings for Telvanni, Ashlanders, necromancers, and some individual NPCs, and other vampirism related topics are expanded on or tweaked as well. 
+
+Services - Gives unique lines to many service providers so they don't talk in 3rd person
+
+Dunmer dialogue - a lot of lines are added so that natives no longer talk about their most treasured institutions and traditions as if they're Imperial observers
+
+RECOMMENDED MODS
+Audio:
+Idle Talk﻿ by vonwolfe
+Great Service﻿ by vonwolfe
+Tunnel Cough﻿ by R-Zero
+FMI - Not All Dunmer﻿ by PoodleSandwich
+FMI - Nice to Meet You﻿ by PoodleSandwich
+Outlander Yourself﻿ by rot
+It's A Deal﻿  by vonwolfe and Petethegoat
+Empty Threats Disabler﻿ by rot
+
+Dialogue:
+FMI - Legion Dialogue﻿ by PoodleSandwich
+Courtesy﻿ by Chantox
+Django's Dialogue﻿ by vonwolfe
+What Thieves Guild﻿ by vonwolfe
+Nasty Camonna Tong by vonwolfe - available on MMH
+Raym's Vampire Rumours by Raym - available on wolflore
+Greetings for No-Lore﻿ by Caeris
+People of Pelagiad﻿ by Caeris
+
+PARTIALLY INCLUDED 
+FMI - Disease Descriptions
+-- LDM - Context Matters includes and expands on the disease descriptions where they're relevant to the vanilla game. It doesn't include any of the creature and disease distribution changes made by FMI - Disease Descriptions. 
+FMI - Misc
+-- LDM - Context matters includes and tweaks most of the dialogue changes made in FMI - Misc. It doesn't include the gravedust availability tweak, nor does it carry over the changes FMI - Misc makes to Ajira's inventory. 
+
+MODS INCLUDED IN THIS MOD - DO NOT USE TOGETHER
+LDM - Vampire Talk﻿
+LDM - Abolitionists﻿
+LDM - Ooh You're Naked begone﻿
+LDM - Caius Directions Anti-Journal﻿
+A Cure for Vampirism - Skink's Solution﻿ by Gavrilo93
+FMI - Ingredient Locations by PoodleSandwich
+LDM - Ashlanders
+
+OTHER COMPATIBILITY
+- Any mods that change the Sleeper script (except Patch for Purists) should load LATER THAN Context Matters. You'll lose the context sensitive nolore changes from Context Matters in this scenario.
+
+- Any mods that change Karrod in any way (eg changing his equipment, stats, or script) should load LATER THAN Context Matters. You'll lose the nolore addition to his script, which means one or two dialogue responses may not be entirely in character.
+
+
+Credits
+=================
+Alice - for Skink's Solution, which is included in this mod. Also reported issue about Temple priests talking about the Temple as though they're not part of it; fix for the books Hasphat mentioned ported into this mod from Alice's Package
+PoodleSandwich for his FMI - Disease Description, FMI - Misc, and FMI - Ingredients Locations which are partially included in this mod, as well as a number of suggestions
+Qualia - Sleeper script changes, a number of suggestions and bug reports
+Half11 - for developing PfP, which this mod is based on, and many suggestions and bug reports
+Knef - suggestions and bug reports
+Lucas92 - suggestions and bug reports
+sade1212 - bug fix for a script bug in Eldafire's little advice response
+spockthewok - suggestions and bug reports
+praisejebus732 - suggestions and bug reports
+myrix1 - reporting the 'visiting an ashlander camp' issue
+JoylessJoker15 - multiple reports
+
+CHANGELOG
+================
+v1.6
+====
+## Dialogue Changes:
+- [abolitionists]
+-- Some filtering fixes so that Hlaalu hanging around on slave-holding plantations don't talk about how they agree with abolitionists.
+-- Added unique lines for Ilmeni Dren, Orvas Dren, Vedam Dren, and Fruscia Abitius.
+-- Added new lines for various groups in Dren Plantation
+-- Added a line for the Camonna Tong
+-- Tweaked wording of many entries to avoid the we/us idiomatic usage argument.
+- [background] 
+Thavere Vedrano now has a unique entry
+- [Bacola Closcius]
+-- Fixed incorrect NoLore filtering that was causing NoLore NPCs in the South Wall to give an incorrect response.
+-- Generic responses will no longer be available after speaking to Caius to prevent dialogue cluttering
+- [Caius Cosades]
+-- Moved some entries around so that unique dialogue for rogues and thieves is more likely to show up. 
+- [Dagoth Ur] 
+Dunmer now have responses reflecting the fact that this is THEIR faith. Paupers and commoners now describe things in laymens terms rather than the very formal, savant-like descriptions they had previously, while Priests emphasise the official stance of the Temple.
+- [foyada]
+Removed extraneous 'the'
+- [little secret] 
+Entries in Pelagiad and Caldera questioning how zealously the Temple has been cracking down on the Nerevarine stuff now have two versions: one for Dunmer, one for everyone else, to prevent Imperials from claiming that it's about time Nerevar showed up to boot the empire out.
+- [my trade] 
+Thavere Vedrano now has a unique entry
+- [services]
+-- Service providers in Caldera, Molag Mar, and Dagon Fel will no longer talk about themselves in 3rd person. They each get a uniqueish line (variants on a theme, mostly). Refiltered Seyda Neen and Hla Oad's services line so no-one talks about themselves in 3rd person either.
+- [Skooma]
+-- Bacola Closcius will now be less squeamish about skooma if you're in the Thieves Guild. He'll give the vanilla line if you're not.
+- [Temple] 
+In vanilla, members of the Temple talk about it as though they're not part of it. Fixed.
+- [visiting an ashlander camp]
+Refiltered entries; Ashlander scouts will now give you a warning, all of the other entries are now filtered so only non-ashlanders say them
+=== [misc changes]
+- Dorisa Darvel/Hasphat Antabolis - Dorisa now sells the books Hasphat says she does.
+
+v1.5
+=====
+-- [Greeting 9] - Typo in entry beginning "When you're in Gnisis...". 
+----- "to have to have to put up" -> "to have to put up"
+----- Reported by PoodleSandwich
+
+-- [specific place] - Hetman Abelmawia shouldn't refer to himself in 3rd person in specific places 
+----- Added two new "specific place" entries for Hetman Abelmawia - one for Telvanni, one for everyone else.
+----- Reported by Qualia
+
+-- [Venim Manor] - Varvur Sarethi will give the same line as the generic Redoran guards.
+----- Adds special lines for Varvur Sarethi (before and after his rescue)
+----- Adds a line for non-Redoran Guard npcs in the manor district (for npc-adding mods)
+----- Reported by Lucas92
+
+-- [Twin Lamps] Any non-Khajiit slave will give the same response to the topic, about going back home to Argonia.
+----- Changes the filtering on the vanilla line to make it Argonian-only
+----- Adds a new, generic line for non-beast-race slaves.
+----- Reported by Knef
+
+-- [Crassius Curio] NPCs in Curio Manor speak as though they're not standing inside it.
+----- Adds two new lines filtered for cell Vivec, Curio Manor - one for moderate disposition, one for very low disposition.
+----- Reported by Qualia
+
+-- [food in Morrowind] line states that bittergreen petals are toxic if eaten raw, although the first alchemical effect is positive, and the petals used by the Morag Tong required special treatment.
+----- tweaks the line slightly to: "Bittergreen, a fast-growing plant if triggered by rain, is safe and nourishing when boiled, though it can be highly toxic if prepared incorrectly."
+----- Reported by PoodleSandwich
+
+-- Sleepers
+-- Makes sleepers more reactive to context by changing their script so that they only become nolored once the main quest has started; before that they'll behave like normal NPCs.
+----- Reported by Qualia, script changes by Qualia
+----- Other script changes forwarded from PfP v4 by Half11
+
+-- Tribunal Main Quest
+-- Karrod will give a generic, dismissive answer if asked about the Royal Guards and several other Tribunal topics, because he's not part of the Royal Guard faction and doesn't get their dialogue.
+----- Adds several new lines for Karrod
+----- Script - adds the nolore variable to his script
+----- Reported by Qualia
+
+[Royal Guard] 
+----- Adds a unique line for Karrod, filtered for Journal TR_Champion >= 80
+----- "I am King Helseth's personal champion. Like the rest of his Royal Guard, I protect my liege and do battle on his behalf."
+
+[Helseth]
+---- Adds a unique line for Karrod, filtered for Journal TR_Champion >= 80
+---- "I have served the King since I was a child."
+
+[Talen Vandas]
+---- Adds a unique line for Karrod, filtered for Journal TR_Champion >= 80
+---- "He met with an accident while hunting."
+
+[anonymous writer]
+---- Adds a unique line for Karrod, filtered for Journal TR_Champion >= 80
+---- "You should speak to Tienius Delitian about that, my friend."
+
+[Barenziah]
+---- Adds a unique line for Karrod, filtered for Journal TR_Champion >= 80
+---- "The Lady Barenziah is my liege's mother. She was Queen in Wayrest when I first entered King Helseth's service."
+
+
+v1.41, v1.42
+=====
+Fixed: The dialogue for monks inside Holamayan isn't filtered correctly so monks outside of the monastery will incorrectly claim "I am a monk. Here at Holamayan...". Reported by spockthewok & doublemoulinet
+
+Fixed: Dialogue topic "Specific place" ("You're in Thongar's Tradehouse....") will be delivered by the strider caravaner and other NPCs in Khuul, and not just NPCs inside the interior cell. Reported by praisejebus732
+
+Fixed: Dialogue topic "Caius Cosades": there is an extra space between the sentences "...where he is?" and "I might know." (..."where he is? I might know" -> "...where he is? I might know") Reported by praisejebus732
+
+Fixed: Dialogue topic "Balmora": the new entry "Balmora's a big place..." uses the UK spelling, "Labour Town," whereas the vanilla game uses the US spelling, "Labor Town." Reported by praisejebus732
+
+Fixed: Dialogue topic "little advice": doesn't forward the corrections to entry "It pays to take it slow..." (where PFP changes the nonsensical "They'll let you know you if you don't like them" clause) Reported by praisejebus732
+
+v1.4
+=====
+LDM - Ashlanders now included: Yakum Hairshashishi will no longer flip between normal speech and broken ashlander speech. Ashlander scouts will no longer talk as though they're not Ashlanders themselves. Nibani Maesa will now react to you having Corprus. Zainab miners now have some unique greetings.
+
+Several minor tweaks to little advice, Pelagiad greetings, Gnisis greetings, my trade. Filter fix for specific place in Ebonheart. Some new Ashlander-style responses to disease topics for wise women. Added no-lore filters to vampire topics.
+
+-- merged in LDM - Ashlanders
+-- Updated the filter for specific place in Ebonheart so that people will no longer tell you you're standing in the Six Fishes when you're not.
+-- Two disease topics, [[ ash-chancre ]] and [[ swamp fever ]], get more ashlander-appropriate responses.
+-- changed some Gnisis greetings around to prevent people who like you from acting as though they hate your guts
+-- added no-lore filters to vampire topics
+-- Filters two Pelagiad greetings that use %name for Not Class = Archer, to prevent Imperial Archers from saying them. It sounds a little weird to have "Hello. I'm Imperial Archer. How can I help?" Changing them in this way also means that it should be compatible with guard diversity mods, as long as they preserve the class=archer.
+-- several little advice entries for Ald-ruhn tweaked, a new line added for members of the Mages Guild. Slight refiltering of the Aldruhn Mages Guild mages guild little advice - they should show up more often now.
+-- A Telvanni/Sadrith Mora little advice had its phrasing tweaked slightly.
+-- my trade, nightblade/battlemage service: should not say they offer spellmaking services, because they don't. fixed.
+
+v1.3
+=====
+NEW IN 1.3:
+Edited versions of FMI - Ingredient Locations, FMI - Disease Descriptions, and FMI - Misc dialogue consistency changes have been merged in (gameplay and creature tweaks ARE NOT included). Thank you, PoodleSandwich!
+ 
+Disease Descriptions - the most extensive changes in 1.3. On top of FMI's consistency changes, which removed references to creatures which don't carry disease in vanilla, I have added more personality to disease descriptions. There are four NPCs who talk about diseases in vanilla; two are professional healers, one is a well-traveled pilgrim, and one is a former Ashlander wise woman who now lives in Vos. Their new lines reflect their differing training, perspectives, and personalities.
+
+See Docs/LDM - Context Matters 1.3 Change Log for more details.
+
+-- Merged in heavily edited versions of PoodleSandwich's mods FMI - Ingredient Locations, FMI - Disease Descriptions, and FMI - Misc.
+-- Mostly these are consistency tweaks.
+-- The disease descriptions are the most heavily edited: there are four NPCs who give information about diseases. I have written new lines for them that better reflect their different perspectives.
+----- Ygfa: Nord healer at Fort Pelagiad. She has information about diseases carried by Bloodmoon creatures, and sometimes comments on disease distributions in other parts of the Empire.
+----- Tendris Vedran, Temple apothecary in Sadrith Mora. Will mention creatures added by Tribunal.
+----- Maela Kaushad, a former wise woman who has given up the nomadic lifestyle of the Ashlanders and moved to Vos. Will only talk about creatures found on Vvardenfell. Gives a more practical, Ashlander-centric perspective.
+----- Artisa Arelas, a Dunmer pilgrim. Will only talk about creatures found on Vvardenfell, and draws on her travel experience rather than professional healing knowledge.
+
+v1.2
+=====
+[Balmora]
+-- Asking Elone about Balmora will no longer trigger the main quest to appear in your journal. She'll still give you written directions, but you'll only get the journal update if you've received orders to find Caius Cosades.
+
+[my trade]
+-- cleaned J'Dhannar and Ahnassi lines
+-- [commoner]: added a new line. Previously, commoners said they could tell that you were an outlander by your accent. Now they only say that to Dunmer PCs. PCs of other races will get "And I can tell that YOU'RE an outlander" instead (because if you're not Dunmer, you're definitely an outlander).
+-- [thief/service]: disposition requirement 30 -> 70 before they'll happily admit to being a thief.
+-- [thief/service]: added new, evasive lines for dispositions below 70.
+-- [monk/service][holamayan]: added new lines referencing Holamayan. 
+-- [monk/service][dunmer]: removed reference to being a student of Khajiiti styles of martial arts.
+-- [mage service]: Removed sentence that implied mage service NPCs offer training.
+-- [nightblade service]: Removed sentence that implied nightblade service NPCs offer training.
+-- [battlemage service]: Removed sentence that implied battlemage service NPCs offer training.
+-- [healer service]: Removed sentence that implied healer service NPCs offer training. Added sentence that says they sell ingredients and potions.
+-- [sorcerer service]: Removed sentence that implied sorcerer service NPCs offer training.
+
+[Talos Cult]
+-- If you somehow get access to the Talos Cult topic before starting General Darius's Talos Cult quest (eg if you have a mod that uses the topic), Darius will respond with "Ok, ok. Look, I'm not into it, but..." which a) doesn't fit his personality and status, and b) goes on to provide a name that Darius isn't aware of (per his quest). Added a line for Darius that gives a vague, high level description of the Cult.
+
+[food]
+-- Ashumanu Eraishah and Desele no longer give the standard Publican line about not selling skooma. Instead, they'll say they can satisfy a sweet tooth if the price is right.
+-- Changed most popular protein from "meat of the domesticated guar" to "meat of the domesticated hound", as guar meat isn't available in vanilla.
+-- Bittergreen: description changed from "a fast-growing slime triggered by rain" to "a fast-growing plant if triggered by rain"
+
+[food in Morrowind]
+-- Removed parantheses from a number of entries where they looked out of place.
+
+[Skooma]
+-- Ashumanu Eraishah and Desele shouldn't talk about not wanting anything to do with skooma, since their taverns are pretty skooma-friendly places. Instead, they say that it's difficult to get without the right connections.
+
+v1.1 
+=====
+- Fixes a script bug in Eldafire's Little Advice dialogue that causes a crash. Fix provided by sade.
+- Widow Vabdas will no longer refer to herself in third person, but has a unique line calling you out on your misdeeds if you betray her.

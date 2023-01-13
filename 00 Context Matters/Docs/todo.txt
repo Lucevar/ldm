@@ -1,0 +1,10 @@
+## TODO
+[WIP] Khajiit greetings
+[Greeting 9; Balmora; TalkedToPC = 1]
+-- Balmora / Chiranirr  
+-- rebalance the greeting disposition thresholds
+
+- [Morrowind lore] 
+In vanilla, members of the Temple talk about it as though they're not part of it. Fixed.
+
+- Ralen Hlaalo - people who give the rumor should know who he is.

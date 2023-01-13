@@ -1,0 +1,57 @@
+More Exclusive Factions
+============================
+TT/IC
+===========
+-- [WIP] Tribunal Temple + Imperial Cult - not totally mutually exclusive. 
+---------- [WIP] Tribunal Temple will comment if you're IC when attempting to join
+---------- [WIP] If you're member of IC, will comment if you attempt to get promoted to > rank 4, as that will shut off the IC for you.
+---------- [WIP] TT will refuse if you're > rank 3 of IC when attempting to get promoted
+------------------- [WIP] UNLESS you agree to give up your membership of IC
+------------------------- [WIP] Add journal to say you've left
+------------------------- [WIP] Add comments when asking for promotions/to join
+------------------------- [WIP] Main figures get big disposition hits
+------------------------- [WIP] PCLeaveFaction
+---------- [WIP] IC will comment if you're TT when attempting to join - much more pleasantly/conciliatory than TT comments
+---------- [WIP] If you're member of TT, will comment if you attempt to get promoted to > rank 4, as that will shut off the TT for you.
+---------- [WIP] IC will refuse if you're > rank 4 of TT when attempting to get promoted
+------------------- [WIP] UNLESS you agree to give up your membership
+------------------------- [WIP] Add journal to say you've left
+------------------------- [WIP] Add comments when asking for promotions/to join
+------------------------- [WIP] Main figures get big disposition hits
+------------------------- [WIP] PCLeaveFaction
+
+MG/HT
+============
+-- [WIP] Add option to join HT via recommendations from Tirar or Baladas
+---- [WIP] Add Q&A about HT to Tirar. Baladas don't got time for noob questions.
+---------- [WIP] Mini-quest: Tirar will ask you to meet him at one of the shadier pubs in Vivec to have this discussion.
+------------------------- [WIP] Tirar or Baladas will give you a letter to give to Master Aryon's mouth.
+------------------------- [WIP] Other mouths will read it and go "it's still no from me dawg"
+------------------- [WIP] When you're Archmage, you can fire him if you know he's the spy.
+-- [WIP] Integrate QTA Telvanni/MG dialogue
+-- [WIP] Ranis should deny membership to anyone over a certain rank in HT
+----- [WIP] Before that, she'll tell you that you've made a mistake and try to convince you to join.
+
+FG/IL/HR
+===========
+-- [WIP] Can renounce FG to join HR or IL.
+-- [WIP] FG will let you join if you're in HR but not if in IL
+-- [WIP] 
+
+HR/TT
+============
+-- [WIP] No joining HR if you're expelled from (or voluntarily left!) Temple
+-- [WIP] No advancing to House Cousin or above unless you're in the Temple
+-- [WIP] No advancing if you're expelled from the Temple 
+
+HR/HH
+===========
+-- [WIP] Can join Redoran instead of Hlaalu if you take the fake orders to Neminda. 
+
+MT
+===========
+-- Neminda and Nileno Dorvayn will now act in ignorance of your status in the Morag Tong: ie you can join HR and HH as normal.
+-- But the Morag Tong look very dimly on their associates taking up with politics. If you choose to join a Great House after joining the Tong, you will be permanently expelled from the Tong, and subject to attack by your former colleagues.
+-- Added a warning to Eno Hlaalu's dialogue when asked about the tenets of the guild - he'll now give you a heads up that you'll be expelled and hunted if you choose to betray the MT to join one of the great houes. 
+-- Edited the MT betrayal greeting to accommodate the above changes, and also to increase the fight rating of NPCs every time you speak to them as an expelled member. Be careful!
+-- [WIP] Members of the MT can join the Temple

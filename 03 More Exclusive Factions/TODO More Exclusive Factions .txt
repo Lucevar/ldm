@@ -1,0 +1,11 @@
+================== [ Lucevar Edition ] =============================
+1) No joining HR if you're expelled from Temple
+2) No advancing to House Cousin or above unless you're in the Temple
+3) No advancing if you're expelled from the Temple
+4) Can join HT as a MG member by getting a letter of introduction from Tiram to Aryon's mouth
+5) Can join HT as a MG member by getting a letter of introduction from Baladas
+6) Check if Ranis has unique Telvanni-denying dialogue. 
+7) Can join Redoran instead of Hlaalu if you take the fake orders to Neminda. 
+8) Renounce FG to join HR or Legion
+
+================== [ Alice Edition ] ===================

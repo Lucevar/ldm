@@ -1,0 +1,33 @@
+LDM - Racist Service Refusal 
+v1.0
+by Lucevar
+=============================
+
+The Camonna Tong are a bunch of racist thugs who are... apparently completely happy to provide services to Argonians and Khajiit, regardless of disposition? 
+
+Not any more! 
+
+Now NPCs belonging to the Camonna Tong faction will refuse to provide services to Argonian (Race = 1) or Khajiit (Race = 6) player characters, unless you get them to a disposition of at least 90.
+
+Banor Seran (of the Balmora Council Club) will also refuse to rent a room to a beast race PC, unless they've completed the Bloodbath quest.
+
+Recommended mods
+=============================
+For even more horrible Camonna Tong experiences, use Nastier Camonna Tong by Von Djangos
+
+Throw What Thieves Guild? in as well, because the Thieves Guild can't operate openly now that the Camonna Tong are behaving like the villains they were always meant to be.
+
+For that feeling that you need to choose your friends wisely because you're alone in a hostile land where doors can be closed against you if you make one small mistep, try: 
+More Exclusive Factions
+Service Requirements Revised
+FMI - Hospitality Papers Expanded
+Bed Buddies
+Misc Mates
+Give A Gift
+Talking Matters
+Silver Tongue
+No Beds for the Diseased
+
+Compatibility
+============================
+To the best of my knowledge this should be compatible with everything. Might make some quests more difficult for Argonian or Khajiit players, which seems reasonable to me. 

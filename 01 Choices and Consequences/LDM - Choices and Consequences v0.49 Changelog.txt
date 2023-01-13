@@ -1,0 +1,81 @@
+LDM - Choices and Consequences
+v0.49 ALPHA
+
+You will need to remove any of the mods listed in the "Included Mods" section and start a new game for the changes in this mod to work correctly.
+
+Installation
+======================================================
+Requirements:
+- Either MCP with Allow Faction Leaving patch enabled, or OpenMW 0.46+
+- Patch for Purists v4+
+
+Load Order:
+- Patch for Purists.esm
+- Patch for Purists esps
+- Django's Dialogue.esp
+- Improved Inns Expanded.esp
+- LDM - Context Matters.esp
+- LDM - Choices & Consequences.esp
+- Hlaalu Rank Adjust, Roleplay Options for GHH, etc.
+- Quest mods in general, especially faction expansion mods. If there's a conflict, you'll generally want them to overwrite C&C because they might have follow-on content.
+
+Included Mods
+=======================================================
+GAMA - Go Away Move Along by l1lartur0
+Expansion Delay by Half11
+Quarantined Vvardenfell by Alice
+LDM - Balmora Rumour Fix by Lucevar
+FMI - HulStop by PoodleSandwich
+FMI - Legion Dialogue by PoodleSandwich
+FMI - Note from the Archcanon Fix by PoodleSandwich
+FMI - Current Councilors by PoodleSandwich
+Quest Choices by Remiros (previously unreleased)
+Hentus Needs Pants Overhaul by Alice
+Ajira Deflowered by Alice
+Oath to St. Roris Instead by Alice
+NPC Faction Affiliator Corrector by Alice
+FMI - Athyn and Shardie by PoodleSandwich
+FMI - Alice's Package by Alice
+Pacifist Options - When It Makes Sense by Alice
+Sexual Harassment Remover by JaceyS 
+-- 3 - Telvanni Bride, 5 - Curio - Hortator - Reducer, 9 - Curio - House Hlaalu - Expander, 11 - Nels Llendo - Expander
+Strange Man At Gindrala's House Overhaul by Alice 
+The G93 Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition by Alice
+Libertarian Magical Services by Alice
+Duel of Honor - Improve the Chances by Alice  
+Blight at the Hairat-Vassamsi Mine by Alice
+Redoran Freeloaders by Alice
+Fargoth in Distress by Alice (inspired by rather than included)
+
+Partially Included Mods
+========================================================
+Hlaalu Rank Adjust by Ithilien87 - LDM includes only the NPC rank and "background" topic changes from Hlaalu Rank Adjust. Compatible if you load Hlaalu Rank Adjust after LDM - C&C for the full Hlaalu Rank Adjust changes.
+Sexual Harassment Remover by JaceyS 
+- I only included the quest changes/additions. SHR is incredibly modular, so you can pick and choose from any of the other SHR modules and load them alongside C&C, just don't use any of the modules that affect the Telvanni Bride quest, Crassius Curio, or Nels Llendo.
+
+Compatibility
+=======================================================
+-- Django's Dialogue should load BEFORE LDM - Context Matters
+-- Improved Inns Expanded should load BEFORE LDM - Choices and Consequences
+-- Hlaalu Rank Adjust should load AFTER LDM - Choices and Consequences
+
+Mods that Conflict
+=======================================================
+- Anything on the "included mods" list
+- Andrano Ancestral Tomb Remastered - GAMA. Situational conflict where Nelos Onmar may become temporarily unavailable, thus leading to a dead end in the AATR quest. It is possible to still complete the Andrano quests via other methods.
+
+Recommended Mods
+========================================================
+- MWSE Pickpocket and Stealth Improved by Mort - Makes pickpocketing and stealth actually functional, thus providing pacifist options in a LOT of different scenarios. 
+- Roleplay Options for Great House Hlaalu by Caeris & Luj1
+- Courtesy by Chantox
+- Nationalist Nerevarine by Alice
+- Religions Elaborated by Caeris - use the No Quest Changes version
+
+High Level Feature Changes in 0.49
+=======================================================
+[ Telvanni: Mages Guild Monopoly ]
+[TODO]: Find a new place for Areach the sorceror to appear, as his current home in the Madach Tradehouse will conflict with HOTV/BCOM.  
+
+[TODO] Add option to taunt Fargoth about taking his stuff
+[TODO] Arrille should refuse services if you do that.
