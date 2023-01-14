@@ -74,8 +74,64 @@ Recommended Mods
 
 High Level Feature Changes in 0.49
 =======================================================
-[ Telvanni: Mages Guild Monopoly ]
-[TODO]: Find a new place for Areach the sorceror to appear, as his current home in the Madach Tradehouse will conflict with HOTV/BCOM.  
 
-[TODO] Add option to taunt Fargoth about taking his stuff
-[TODO] Arrille should refuse services if you do that.
+[ MISC: Death of a Tax Man]
+-- Gave Arrille a unique line that gives RPers a plausible excuse to report the death even if they're not playing particularly law-abiding characters 
+
+[ Ahnassi ]
+-- Ahnassi will put her Flamemirror Robe on when you give it to her
+-- Fixed a line where Ahnassi referred to a female special friend as male. 
+
+[ MQ: Telvanni Bride ]
+-- Assorted typo fixes
+-- Changed filtering on Reytha's dialogue so you can start her questline even if you haven't spoken to Sonummu. This matches vanilla dialogue that lets you ask various Telvanni about it (and I recommend doing so - the vanilla dialogue is hilarious)
+-- Gave Reytha an LDM id
+-- Set Reytha's AIWander to 0 to prevent her from wandering into tables constantly.
+
+* [Greeting 5]
+-- Tweaked some of Drerel Indaren's dialogue to flow better.
+
+* [ latest rumors ]
+-- Added some variants to Surane Leoriane's latest rumor entry, acknowledging your actions around Caldera. If you get Odral Helvi arrested, she'll mention that. If you shut the Caldera mine down, she'll also mention that. Thanks to Alice for the suggestion.
+
+[ MISC: MV_VictimRomance ]
+* [ jewels ]
+-- Added the option to tell Maurrie that you understand her perfectly, if you kissed Nels Llendo.
+
+[ GAMA_ShatteredDreams ]
+-- Minor journal text tweak
+
+[ Nels Llendo ]
+-- Gave Nels a new script
+-- He'll now appear next to Nelos instead of creeping behind Samia. I got annoyed at accidentally clicking her instead of him.
+-- Added three new methods of dealing with Nels: as a woman, pretend to be enthusiastic and steal his purse (if you have enough sneak skill). Unisex: With level > 10, intimidate him into not demanding anything.
+
+* [Greeting 5]
+-- Added a new greeting to him when he's hanging about on the road after accosting you.
+
+* [ MV_3_Charming]
+-- Added journal entries to support the new quest paths
+
+* [ note from Nelos ]
+-- Nels will now comment on the note.
+
+* [ Nels Llendo ]
+-- Minor tweaks to vanilla dialogue
+-- Added unique lines for many of the characters in the Halfway.
+
+* [ local news ]
+-- Added a new topic, local news, so I can write location/quest specific rumors without worrying about compatibility in 'latest rumors'
+-- Added a rumor about Nels Llendo, so that vanilla dialogue shows up even if you haven't met him yet
+
+* [ thieves guild ]
+-- added some commentary to Nels; changes depending on whether the PC is a member of the guild or not.
+
+* [ greetings 4 ]
+-- Added a bunch of unique greetings to Nels when he's hanging about in the tavern. Mostly flavour commentary, but he might give you gifts or take money off you. 
+
+[ Telvanni: Mages Guild Monopoly ]
+-- Found a new place for Areach the sorceror to appear, as his old home in the Madach Tradehouse conflicts with HOTV/BCOM.  
+
+## Credits
+* Caleb - suggesting that Ahnassi put on her robe
+* Remiros for the unreleased mod I based the new Nels quest choices on. 

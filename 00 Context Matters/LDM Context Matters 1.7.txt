@@ -1,6 +1,6 @@
 LDM - Context Matters
 by Lucevar
-v1.6
+v1.7
 
 This mod is an attempt to fix one of the largest issues with Morrowind's dialogue: because the developers didn't have years to sit there and write dialogue to cover every possible scenario, there are places in the vanilla game where NPCs will talk about themselves in third person, casually incriminate themselves, swear by gods they don't believe in, or give replies completely unfitting for their status in life - uneducated paupers shouldn't give the same replies as savants!
 
@@ -96,6 +96,16 @@ JoylessJoker15 - multiple reports
 
 CHANGELOG
 ================
+v1.7
+====
+- [ SleeperScript ]
+-- Minor tweak to SleeperScript to prevent sleepers from forcegreeting you if they're disabled for some reason (eg scheduling mods). Suggestion by Qualia.
+- [Dagoth Ur], [Sixth House], [n'wah must die]
+-- Added a local sleeperOn = 1 filter to the sleeper dialogue, so they only give you the crazy talk at night like they're supposed to. Thanks to Qualia for the suggestion.
+- [Requirements]
+-- Replaced Imperial Cult entry (which was painfully meta-gamey) with a more flavorful alternative. Also replaced House Telvanni's entry - it wasn't as bad, but there was definitely room for improvement.
+
+
 v1.6
 ====
 ## Dialogue Changes:
