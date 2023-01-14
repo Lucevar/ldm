@@ -98,13 +98,18 @@ CHANGELOG
 ================
 v1.7
 ====
-- [ SleeperScript ]
+* [ SleeperScript ]
 -- Minor tweak to SleeperScript to prevent sleepers from forcegreeting you if they're disabled for some reason (eg scheduling mods). Suggestion by Qualia.
-- [Dagoth Ur], [Sixth House], [n'wah must die]
+* [Dagoth Ur], [Sixth House], [n'wah must die]
 -- Added a local sleeperOn = 1 filter to the sleeper dialogue, so they only give you the crazy talk at night like they're supposed to. Thanks to Qualia for the suggestion.
-- [Requirements]
+* [Requirements]
 -- Replaced Imperial Cult entry (which was painfully meta-gamey) with a more flavorful alternative. Also replaced House Telvanni's entry - it wasn't as bad, but there was definitely room for improvement.
-
+* [ Caius Cosades ]
+-- Fixed filtering, changed Bacola's entry to be generally more friendly, added entry for Khajiit.
+* [ South Wall ]
+-- New entries for Camonna Tong, commoners, paupers, and Khajiit.
+* [ Bacola Closcius ]
+-- New entry for Khajiit, filtering fixes.
 
 v1.6
 ====
