@@ -132,6 +132,13 @@ High Level Feature Changes in 0.49
 [ Telvanni: Mages Guild Monopoly ]
 -- Found a new place for Areach the sorceror to appear, as his old home in the Madach Tradehouse conflicts with HOTV/BCOM.  
 
+[ Imperial Legion: Land Deed ]
+-- Changed spear reward to an OAAB Imperial Spear.
+-- Fixed bug where Darius wouldn't actually give you the reward or close the quest.
+
+[ House Redoran: Hostile Mudcrabs ]
+-- The corpse of the guar will now disappear after you kill the hostile mudcrabs and turn the quest in to Drulene.
+
 ## Credits
 * Caleb - suggesting that Ahnassi put on her robe
 * Remiros for the unreleased mod I based the new Nels quest choices on. 
