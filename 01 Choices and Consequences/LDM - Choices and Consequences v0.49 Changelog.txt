@@ -135,6 +135,10 @@ High Level Feature Changes in 0.49
 [ Imperial Legion: Land Deed ]
 -- Changed spear reward to an OAAB Imperial Spear.
 -- Fixed bug where Darius wouldn't actually give you the reward or close the quest.
+-- Boosted disposition reward for actually getting the land deed
+
+[ Imperial Legion: Egg Mine ]
+-- Added a bit of dialogue implying that the Legion has been waiting for a delivery of cure blight scrolls before making another attempt to cure the queen, instead of the whole town just sitting on their hands for no good reason while their economy dies.
 
 [ House Redoran: Hostile Mudcrabs ]
 -- The corpse of the guar will now disappear after you kill the hostile mudcrabs and turn the quest in to Drulene.
