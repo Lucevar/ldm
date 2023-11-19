@@ -1,0 +1,23 @@
+More Exclusive Factions 1.2
+by Lucevar
+
+Changelog:
+- Can now join one of the Great Houses as a member of the MT. However, you just pissed off a lot of assassins. Your former friends might not be so friendly now. You still can't join the MT as a member of one of the Great Houses.
+- You can now join the Temple as a member of the MT (and the MT will tolerate it). I made this decision because contracts on Temple priests are probably quite rare (falling outside the House War contracts), and could reasonably be passed to another assassin.
+- You can now join the Legion and House Redoran as a member of the Fighters Guild, and vice versa, you just have to convince them you're worth the potential hassle (disposition > 70).
+
+House Redoran
+====================
+[x] Members of the Fighters Guild can now join House Redoran, if you can convince Neminda you're worth the risk (disp 70)
+[x] Neminda will now warn members of the IC about House Redoran's Tribunal Temple membership requirements, in case that changes your mind.
+
+House Telvanni/Mages Guild 
+====================
+[x] You can now ask Baladas to write you a letter to the Mouths in Sadrith Mora, recommending that you be allowed to join the House. This offer is open to non-affiliated PCs and members of the MG alike, providing a way to join HT if you joined the MG first. You'll have to do him a favour first, of course.
+
+HT/MG:
+[] As HT, join via Ranis
+[] move qta llarer bereloth quest over
+[] move qta trebonius, ranis, tiram dialogue over
+[] ranis refuses to give you the telvanni spy quest if you joined via her
+[] add the sleuth work dialogue back in to the telvanni spy quest
